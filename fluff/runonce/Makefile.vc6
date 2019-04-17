@@ -1,0 +1,10 @@
+CXX     = cl.exe
+CFLAGS  = -O2 -GA -W3 -DUNICODE -D_UNICODE -nologo
+LDFLAGS = /link kernel32.lib user32.lib advapi32.lib /SUBSYSTEM:windows /ENTRY:wmainCRTStartup
+
+out/runonce.exe: out/main.obj
+	$(CXX) $(CFLAGS) -Fe$@ $** $(LDFLAGS)
+
+out/main.obj: main.cpp
+	$(CXX) $(CFLAGS) -c -Fo$@ main.cpp
+

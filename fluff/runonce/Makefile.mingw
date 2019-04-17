@@ -1,0 +1,10 @@
+CXX = i686-w64-mingw32-c++
+CFLAGS = -std=c++98 -Wall -Wextra -mwindows -municode -DUNICODE -D_UNICODE -fno-exceptions -fno-rtti -gstabs
+LDFLAGS = -static
+
+out/runonce-and-delete.exe: out/main.o
+	$(CXX) $(CFLAGS) -o $@ $^ $(LDFLAGS)
+
+out/main.o: main.cpp
+	$(CXX) $(CFLAGS) -c -o $@ $<
+
