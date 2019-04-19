@@ -70,6 +70,7 @@ public:
     struct Item {
         wstr text;
         wstr commandline;
+        bool ignoreerrors;
 
         void
         process(HWND parent = NULL) const
@@ -109,6 +110,18 @@ public:
                         break;
                 }
 
+                DWORD exitcode = 0;
+                GetExitCodeProcess(pi.hProcess, &exitcode);
+                if (!ignoreerrors && exitcode != ERROR_SUCCESS && exitcode != ERROR_SUCCESS_REBOOT_REQUIRED) {
+                    wstr msg(L"Exit Code: ");
+                    msg += wstr::from_dword_dec(exitcode);
+                    msg += wstr(L" (0x");
+                    msg += wstr::from_dword_hex(exitcode);
+                    msg += wstr(L")");
+
+                    MessageBox(parent, msg.cstr(), L"Fehler bei Installation", MB_ICONHAND|MB_OK);
+                }
+
                 CloseHandle(pi.hProcess);
                 CloseHandle(pi.hThread);
             } else {
@@ -120,7 +133,13 @@ public:
                               (WCHAR*)&errormsg,
                               0,
                               NULL);
-                MessageBox(parent, errormsg, L"Fehler beim Programmstart", MB_ICONHAND|MB_OK);
+
+                wstr msg(L"Fehler beim Ausf\x00FChren von\r\n");
+                msg += commandline;
+                msg += wstr(L"\r\n\r\n");
+                msg += wstr(errormsg);
+
+                MessageBox(parent, msg.cstr(), L"Fehler beim Programmstart", MB_ICONHAND|MB_OK);
                 LocalFree(errormsg);
             }
         }
@@ -178,6 +197,7 @@ public:
         wstr file;
         wstr args;
         wstr description;
+        bool ignoreerrors = false;
 
         wstr l = m_lines[i];
 
@@ -208,6 +228,11 @@ public:
                 args = l.substr(firstcolon+1, secondcolon - firstcolon - 1);
                 description = l.substr(secondcolon + 1);
             }
+        }
+
+        if (file.startswith(L"@")) {
+            ignoreerrors = true;
+            file = file.substr(1);
         }
 
         if (file.endswith(L".reg") || file.endswith(L".REG")) {
@@ -297,7 +322,7 @@ public:
                     if (filedesc.startswith(L"Win32 Cabinet Self-Extractor")) {
                         args = wstr(L"/q:a /r:n");
                     } else if (fixed.dwProductVersionMS > 0x00060002 || (
-                            fixed.dwProductVersionMS = 0x00060002 && fixed.dwProductVersionLS >= 0x00180000)) {
+                            fixed.dwProductVersionMS == 0x00060002 && fixed.dwProductVersionLS >= 0x00180000)) {
                         // new packages are supposed to work with the old-style arguments,
                         // but some (e.g. WMP11) will not.
                         args = wstr(L"/quiet /nobackup /norestart");
@@ -318,6 +343,8 @@ public:
         r.commandline = wstr(L"\"") + file + wstr(L"\"");
         if (args.size())
             r.commandline = r.commandline + wstr(L" ") + args;
+
+        r.ignoreerrors = ignoreerrors;
 
         return r;
     }

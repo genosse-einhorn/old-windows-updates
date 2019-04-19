@@ -117,6 +117,13 @@ public:
         return ret;
     }
 
+    wstr &
+    operator+=(const wstr &other)
+    {
+        *this = *this + other;
+        return *this;
+    }
+
     wstr
     trimmed() const
     {
@@ -224,6 +231,42 @@ public:
         MultiByteToWideChar(CP_UTF8, 0, lpsz, length, retval.ptr->data, widelen);
 
         return retval;
+    }
+
+    static wstr
+    from_dword_dec(DWORD num)
+    {
+        WCHAR buf[11];
+        ZeroMemory(buf, sizeof(buf));
+
+        WCHAR *ptr = &buf[10];
+        do {
+            ptr--;
+            *ptr = '0' + (char)(num % (DWORD)10);
+            num /= (DWORD)10;
+        } while (num > 0);
+
+        return wstr(ptr);
+    }
+
+    static wstr
+    from_dword_hex(DWORD num)
+    {
+        WCHAR buf[9];
+        ZeroMemory(buf, sizeof(buf));
+
+        WCHAR *ptr = &buf[8];
+        do {
+            ptr--;
+            DWORD x = (num % (DWORD)0x10);
+            if (x < 10)
+                *ptr = '0' + (char)x;
+            else
+                *ptr = 'a' + (char)(x - 10);
+            num /= (DWORD)0x10;
+        } while (num > 0);
+
+        return wstr(ptr);
     }
 };
 

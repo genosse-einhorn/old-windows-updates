@@ -23,13 +23,16 @@ public:
         DWORD dummy;
         DWORD size = GetFileVersionInfoSizeW((WCHAR*)filename, &dummy);
 
-        data = HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, size);
-        GetFileVersionInfoW((WCHAR*)filename, dummy, size, data);
+        if (size) {
+            data = HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, size);
+            GetFileVersionInfoW((WCHAR*)filename, dummy, size, data);
+        }
     }
 
     ~VersionInfo()
     {
-        HeapFree(GetProcessHeap(), 0, data);
+        if (data)
+            HeapFree(GetProcessHeap(), 0, data);
     }
 
     VS_FIXEDFILEINFO
@@ -41,7 +44,7 @@ public:
         void *retp;
         UINT  retp_len;
 
-        if (VerQueryValueW(data, L"\\", &retp, &retp_len)) {
+        if (data && VerQueryValueW(data, L"\\", &retp, &retp_len)) {
             CopyMemory(&retval, retp, retp_len < sizeof(retval) ? retp_len : sizeof(retval));
         }
 
@@ -70,7 +73,7 @@ public:
 
         void *retbuf;
         UINT  retbuf_len;
-        if (VerQueryValueW(data, block, &retbuf, &retbuf_len)) {
+        if (data && VerQueryValueW(data, block, &retbuf, &retbuf_len)) {
             return (WCHAR*)retbuf;
         } else {
             return NULL;
@@ -80,6 +83,9 @@ public:
     const WCHAR *
     query(const WCHAR *key) const
     {
+        if (!data)
+            return NULL;
+
         struct LANGANDCODEPAGE {
             WORD wLanguage;
             WORD wCodePage;
