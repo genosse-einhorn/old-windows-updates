@@ -161,6 +161,7 @@ Diese Sicherheitsupdates wurden nach Ablauf des offiziellen Supports freigegeben
 | KB4019204 | windowsxp-kb4019204-x86-custom-deu.exe | 1,5M | ea5eb4cf4233e818a11a9825174d04871ce3d15e | |
 | KB4018466 | windowsxp-kb4018466-x86-custom-deu.exe | 676K | bcb22c338e186d38b8d1510f1630742707fcd9a2 | |
 | KB4012583 | windowsxp-kb4012583-x86-custom-deu.exe | 1,5M | edb18f0de1c061f2085970fd03fff15ed296a999 | |
+| KB4500331 | windowsxp-kb4500331-x86-custom-deu.exe | 527K | f6b19dd13775e252ee6ca329d911010b90edabbd | RCE in Remote Desktop Services |
 
 ### Updates für den integrierten Media Player 9
 
