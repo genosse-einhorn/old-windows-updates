@@ -219,6 +219,67 @@ check_parse_args(const char *argstr, char **argv)
     free(a);
 }
 
+static inline size_t
+quote_arg(const char *arg, char *buf, size_t bufsize)
+{
+    size_t r = 1;
+#define WRITE(c) do { r++; if (bufsize > 1) { *buf++ = (c); bufsize--; } } while (0)
+
+    WRITE('"');
+
+    while (*arg) {
+        char c = *arg++;
+
+        if (c == '"') {
+            WRITE('\\');
+            WRITE('"');
+        } else if (c == '\\') {
+            size_t b = 1;
+            while (*arg == '\\') {
+                arg++;
+                b++;
+            }
+            if (*arg == '"') {
+                ++arg;
+                for (size_t i = 0; i < b; ++i) {
+                    WRITE('\\'); WRITE('\\');
+                }
+                WRITE('\\');
+                WRITE('"');
+            } else if (*arg == '\0') {
+                for (size_t i = 0; i < b; ++i) {
+                    WRITE('\\'); WRITE('\\');
+                }
+            } else {
+                for (size_t i = 0; i < b; ++i) {
+                    WRITE('\\');
+                }
+            }
+        } else {
+            WRITE(c);
+        }
+    }
+
+    WRITE('"');
+
+#undef WRITE
+
+    if (bufsize > 0)
+        *buf = 0;
+
+    return r;
+}
+
+static inline void
+check_quote_arg(const char *arg, const char *quoted)
+{
+    char buf[1024];
+
+    quote_arg(arg, buf, sizeof(buf));
+
+    assert(!strcmp(buf, quoted));
+}
+
 int main(void)
 {
     check_parse_args("\"abc\" d e", ((char*[]){ "abc", "d", "e", NULL }));
@@ -233,6 +294,11 @@ int main(void)
     check_parse_args(" \t ", (char*[]){"", NULL});
     check_parse_args("test.exe", (char*[]){"test.exe", NULL});
     check_parse_args("test.exe     ", (char*[]){"test.exe", NULL});
+
+    check_quote_arg("abc", "\"abc\"");
+    check_quote_arg("", "\"\"");
+    check_quote_arg("abc\\", "\"abc\\\\\"");
+    check_quote_arg("a\\\"b", "\"a\\\\\\\"b\"");
 
     return 0;
 }
