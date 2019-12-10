@@ -1,0 +1,12 @@
+CXX     = cl.exe
+CFLAGS  = -O1 -W3 -DUNICODE -D_UNICODE -nologo
+LDFLAGS = /link /nodefaultlib /entry:DllMain /opt:nowin98 /def:fakeslc.def
+
+out/slc.dll: out/fakeslc.obj fakeslc.def
+	$(CXX) $(CFLAGS) -LD -Fe$@ $** $(LDFLAGS)
+
+out/fakeslc.obj: fakeslc.cpp
+	$(CXX) $(CFLAGS) -c -Fo$@ fakeslc.cpp
+
+clean:
+	del /f out\*.obj out\*.exe out\*.dll out\*.exp out\*.lib

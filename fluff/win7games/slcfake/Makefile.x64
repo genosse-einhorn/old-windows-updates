@@ -1,0 +1,12 @@
+CXX     = cl.exe
+CFLAGS  = -O1 -W3 -DUNICODE -D_UNICODE -nologo -I$(CRT_INC_PATH)
+LDFLAGS = /link /nodefaultlib /entry:DllMain /opt:nowin98 /def:fakeslc.def
+
+out64/slc.dll: out64/fakeslc.obj fakeslc.def
+	$(CXX) $(CFLAGS) -LD -Fe$@ $** $(LDFLAGS)
+
+out64/fakeslc.obj: fakeslc.cpp
+	$(CXX) $(CFLAGS) -c -Fo$@ fakeslc.cpp
+
+clean:
+	del /f out64\*.obj out64\*.exe out64\*.dll out64\*.exp out64\*.lib

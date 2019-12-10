@@ -1,0 +1,18 @@
+The games included with Windows 7 don’t work on Windows 8, 8.1 or 10, because
+they include some kind of copy protection. Here’s how it is implemented:
+
+All games call
+
+  HRESULT SLGetWindowsInformationDWORD(LPCWSTR *pwszValueName, DWORD *pdwValue)
+
+from slc.dll, with a string like "Shell-InBoxGames-SpiderSolitaire-EnableGame".
+On Windows 7, the function then sets *pdwValue to 1 and returns S_OK. On other
+Versions of Windows, the function fails or sets *pdwValue to 0.
+
+Fortunately, this not very sophisticated protection is easy to override by
+placing a fake slc.dll into the game directory. My fake slc.dll only contains
+the SLGetWindowsInformationDWORD() function and that function always sets
+*pdwValue to 1 and returns S_OK, regardless of what it was asked to retrieve.
+
+Note that Solitaire, Spider, FreeCell and Hearts also need CardGames.dll
+from %SystemRoot%\System32 which is not part of the OS on Windows 8 or later.
