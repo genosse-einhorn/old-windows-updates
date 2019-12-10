@@ -66,6 +66,31 @@ private:
         }
     }
 
+    static bool
+    fileExists(const wstr &file)
+    {
+        DWORD a = GetFileAttributesW(file.cstr());
+
+        return a != INVALID_FILE_ATTRIBUTES && !(a & FILE_ATTRIBUTE_DIRECTORY);
+    }
+
+    static wstr
+    findSysNative(const wstr &file)
+    {
+        WCHAR windir[MAX_PATH];
+        GetWindowsDirectoryW(windir, MAX_PATH);
+
+        wstr fileNative = wstr(windir) + wstr(L"\\SysNative\\") + file;
+        if (fileExists(fileNative))
+            return fileNative;
+
+        wstr file32 = wstr(windir) + wstr(L"\\System32\\") + file;
+        if (fileExists(file32))
+            return file32;
+
+        return file;
+    }
+
 public:
     struct Item {
         wstr text;
@@ -112,7 +137,9 @@ public:
 
                 DWORD exitcode = 0;
                 GetExitCodeProcess(pi.hProcess, &exitcode);
-                if (!ignoreerrors && exitcode != ERROR_SUCCESS && exitcode != ERROR_SUCCESS_REBOOT_REQUIRED) {
+                if (!ignoreerrors && exitcode != ERROR_SUCCESS
+                        && exitcode != ERROR_SUCCESS_REBOOT_REQUIRED
+                        && exitcode != 2359302 /* patch already installed */) {
                     wstr msg(L"Exit Code: ");
                     msg += wstr::from_dword_dec(exitcode);
                     msg += wstr(L" (0x");
@@ -250,11 +277,27 @@ public:
             }
 
             if (!args.size()) {
-                args = wstr(L"/quiet norestart");
+                args = wstr(L"/quiet /norestart");
             }
 
             args = wstr(L"\"") + file + wstr(L"\" ") + args;
-            file = wstr(L"wusa.exe");
+            file = findSysNative(wstr(L"wusa.exe"));
+        } else if (file.endswith(L".cab") || file.endswith(L".CAB")) {
+            if (description.size() < 1) {
+                wstr kb = findKbNumber(file);
+                if (kb.size() > 0) {
+                    description = wstr(L"Update KB") + kb;
+                } else {
+                    description = file;
+                }
+            }
+
+            if (!args.size()) {
+                args = wstr(L"/quiet /norestart /online");
+            }
+
+            args = wstr(L"/add-package /packagepath:\"") + file + wstr(L"\" ") + args;
+            file = findSysNative(wstr(L"dism.exe"));
         } else if (file.endswith(L".msi") || file.endswith(L".MSI")) {
             if (description.size() < 1) {
                 wstr kb = findKbNumber(file);
