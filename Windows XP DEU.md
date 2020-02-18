@@ -179,7 +179,7 @@ Nicht installieren, falls sowieso der Media Player 11 installiert werden soll.
 
 ### Media Player 11
 
-Das Installationspaket, dass man bei Microsoft herunterladen kann, führt erste eine Aktivierungsprüfung durch.
+Das Installationspaket, das man bei Microsoft herunterladen kann, führt eine Aktivierungsprüfung durch.
 Man kann das jedoch umgehen, indem man die Datei mit einem Archivprogramm öffnet und die Einzelkomponenten
 `wmp11.exe` und `wmfdist11.exe` entpackt und installiert. Danach sind diverse Sicherheitsupdates fällig.
 
