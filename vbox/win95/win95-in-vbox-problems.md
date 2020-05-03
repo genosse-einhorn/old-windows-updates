@@ -56,7 +56,13 @@ You probably fell victim to the *4 floppy drives bug* described below. To contin
 
 Windows 95 Setup can only access the CD during the second stage of setup if you used a `DRVCOPY.INF` file to install a real-mode CD driver. See my `win95-bootdisk-with-cdrom.md` tutorial for creating a setup bootdisk which gets it right.
 
-Your only option now is to skip the file and then fix the fallout later (see below)
+Your only option now is to skip the file and then fix the fallout later (see below).
+
+### Alternative: Copy everything to the hard disk
+
+You can work around this problem by copying the files from the `WIN95` onto your
+hard disk and install from there. It is also possible to patch the setup files
+to do that for you, see [win95-setup-copy-cabs-to-hdd.md](win95-setup-copy-cabs-to-hdd.md).
 
 # Windows 95 complains about missing components and other breakage caused by skipping files during setup
 
@@ -95,6 +101,6 @@ Higher screen resolutions are possible with the [VBEMP](https://bearwindows.zcm.
 * You should use the driver in the `UNI` subfolder when using the `vbemp9x.zip` version or one of the `032MB`, `064MB`, `128MB` subfolders when using the `140214.zip` version.
 * Install via *Control Panel*, *Display*, *Settings*, *Advanced Properties*, *Adapter*, *Change...*, *Have Disk...*
 * RunDLL32 will crash when installing the driver. The Installation succeeded anyway, press `Close` and reboot.
-* Make sure to **increase the amount of video RAM** in the virtual machine settings to at **least 32MB**, otherwise the screen will stay black
+* Make sure to **increase the amount of video RAM** in the virtual machine settings to **at least 64MB**, otherwise the screen will stay black
 * If Windows 95 requests you to specify a monitor, choose *Plug and Play Monitor*
 
