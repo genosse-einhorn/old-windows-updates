@@ -210,6 +210,12 @@ Diese Systemupdates werden als "optionale Updates" in Windows Update angeboten
 | KB909520 | windows-kb909520-v1.000-x86-deu.exe | 632K | 973e7c23c74c87910f14695d558f612ea73afce8 | Microsoft Base Smartcard-Kryptografiedienstanbieter-Paket |
 | KB971513 | windows-de-de-kb971513.exe | 749K | e47749e7458c92e0db84293439ce2f85f778ab0c | Windows-Automatisierungs-API-Bibliothek. Wird bei irgendeinem Sicherheitsupdate automatisch mitinstalliert.
 
+### Weitere optionale Updates
+
+| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
+|-----|-------------|-------|-----------|-----------|
+| KB955704 | WindowsXP-KB955704-x86-DEU.exe | 3.4M | 45496f78d4e44119043e772903705f2705471d5e | exFAT |
+
 ### Internet Explorer 8
 
 | KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
