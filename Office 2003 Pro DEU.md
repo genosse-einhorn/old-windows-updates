@@ -24,6 +24,7 @@ In den `.cab`-Dateien aus dem Update Catalog befinden sich `.msi`- oder `.msp`-D
 | KB955439 | snapview_*.cab | 75KiB | 80d9e106baf28890f54df411921f8aff24175b88 |
 | KB974554 | fm20_*.cab | 828KiB | 86bc3fbc23d82c942ebe6e5b5542dd49572d26a5 |
 | KB980373 | outlook_*.cab | 4.8MiB | d6be8a17b2cf5fb310b43ad839083e745a2426d2 |
+| KB980923 | infopath_*.cab | 2.8MiB | 16f605971e2965a5858a3dacebb1972c3a6ae5fd |
 | KB981716 | accwiz_*.cab, access_*.cab | 16.7MiB | aa551fc0a3c4300aef0911df31432b255d504d93, b504ced2745520cc4c9b5609819b37886bd2885c |
 | KB2288613 | usp10_*.cab | 722KiB | 049c49894d83a4e679bf811df806fd247801b201 |
 | KB2289163 | gpfilt_*.cab | 716KiB | 73a33f863475e31dd4ae0f5476a914828d1e29e4 |
@@ -51,6 +52,7 @@ In den `.cab`-Dateien aus dem Update Catalog befinden sich `.msi`- oder `.msp`-D
 | KB978551 | irmprtidnminus1_*.cab | 465KiB | 2ae1c8c2727f8cd8c26475c502c52aa73383d394 | |
 | KB2449798 | outlook_*.cab | 4.8MiB | 49ecfe899e24ee3a825a61a1d72b6b6ba081bfc2 | |
 | KB2539581 | riched20_*.cab | 1.1MiB | 8633e34b5cbe2f5454eb756900f439969ca9a5cd | |
+| KB2543854 | apdata_*.cab | 12KiB | a6a392ae6bc233e5e6c1e622d8315f353f15a23e | Scheinbar nur ab Windows 7 wichtig, Windows Update unter XP hat das nicht verlangt. |
 | KB2863822 | outlfltr_*.cab | 3.4MiB | 538e7f9cb0a4f17d345d45f3658080908100258e | Update für Junk-Mail-Filter |
 
 
