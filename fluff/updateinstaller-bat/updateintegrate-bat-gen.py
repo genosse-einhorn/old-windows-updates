@@ -22,6 +22,12 @@ def kbno(s):
 
 # print bat header
 bat('@ECHO OFF')
+bat('')
+bat('if "%~1"=="" (')
+bat('    ECHO Need path to mounted WIM file as first argument')
+bat('    EXIT /B')
+bat(')')
+bat('')
 
 cl = []
 
@@ -37,30 +43,24 @@ for l in args.inlst:
         continue
 
     # line with file to install
-    f, t = (l + '\t\t\t').split('\t', 1)
+    f, a, t = (l + '\t\t\t').split('\t', 2)
 
-    if f.upper().endswith('.MSU'):
-        c = 'START /W WUSA.EXE "%~dp0{}" /quiet /norestart'.format(f)
-    elif f.upper().endswith('.CAB'):
-        c = 'DISM.EXE  /quiet /norestart /online /add-package /packagepath:"%~dp0{}"'.format(f)
-    else:
-        c = 'START /W "" {}'.format(f)
+    c = 'DISM.EXE /Image:"%1" /Add-Package /PackagePath:"%~dp0{}" /quiet'.format(f)
 
     cl.append((c, t.strip() or kbno(f) or f))
 
 for i in range(0, len(cl)):
     c, t = cl[i]
-    bat('<NUL (SET /P =[{:02}%%] Installing {}...)'.format(((i + 1) * 100)//len(cl), t))
+    bat('<NUL (SET /P =[{:02}%%] Integrating {}...)'.format(((i + 1) * 100)//len(cl), t))
     bat(c)
     bat('CALL :CHECKERROR')
 
 
 # print bat footer
 bat('ECHO:')
-bat('ECHO Finished. The computer will be rebooted now.')
-bat('TIMEOUT /T 15')
-bat('SHUTDOWN /R /T 0')
-bat('EXIT')
+bat('ECHO Finished.')
+bat('PAUSE')
+bat('EXIT /B')
 bat('')
 bat(':CHECKERROR')
 bat('if %ERRORLEVEL%==0 (')
@@ -83,4 +83,3 @@ bat('ECHO: FAILED! (%ERRORLEVEL%)')
 bat('PAUSE')
 bat('EXIT /B')
 bat('')
-
