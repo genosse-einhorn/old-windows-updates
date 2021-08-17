@@ -215,6 +215,7 @@ Diese Systemupdates werden als "optionale Updates" in Windows Update angeboten
 | KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
 |-----|-------------|-------|-----------|-----------|
 | KB955704 | WindowsXP-KB955704-x86-DEU.exe | 3.4M | 45496f78d4e44119043e772903705f2705471d5e | exFAT |
+| KB932716 | WindowsXP-KB932716-v2-x86-DEU.exe | 764K | be3eb80f9ac46a9c57ce291398675463514d2b43 | IMAPIv2 |
 
 ### Internet Explorer 8
 
