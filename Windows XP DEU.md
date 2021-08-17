@@ -304,21 +304,9 @@ Diese Systemupdates werden als "optionale Updates" in Windows Update angeboten
 
 ### Windows Update
 
-Mit der Einstellung der Updates für WES09 und POSReady 2009 im April 2019 ist es wohl nur noch eine Frage der Zeit, bis die alte Windows-Update-Seite abgestellt wird. Stand April 2019 läuft sie aber noch.
+Im Juli 2020 wurde Windows Update für Windows XP im Zuge der Umstellung auf das SHA2-Hashverfahren abgeschaltet.
 
-Damit Windows Update funktioniert, muss
-
-* Windows aktiviert werden
-* der Windows Update Agent manuell aktualisiert werden
-* TLS 1.0 in den Einstellungen vom Internet Explorer aktiviert werden (Reiter "Erweitert", Überschrift "Sicherheit")
-
-Ein Update auf IE 8 ist nicht erforderlich. Windows Update wird als erste Amtshandlung das Paketinstallationsprogramm und das Windows Genuine Advantage-Gültigkeitsprüfungstool herunterladen und installieren. Die WGA-Prüfung selbst ist zwar als "Wichtiges Update" eingestuft, jedoch nicht verpflichtend.
-
-| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
-|-----|-------------|-------|-----------|-----------|
-| KB949104 | windowsupdateagent-7.6-x86.exe | 9,3M | e901a9994f10cf31f557e84ad27688fd368c7611 | Nicht im Update-Katalog, aber im KB-Artikel ist ein Download. Der Download im KB-Artikel ist für Win 7 gekennzeichnet, funktioniert aber auch auf XP. |
-| KB898461 | windowsxp-kb898461-x86-deu.exe | 484K | 5637511f265770a24e4607bcccb0ecb48ad5a671 | Windows-Paketinstallationsprogramm. Benötigt für Windows Update. |
-| KB892130 | windowsxp-kb892130-enu-x86.exe | 1,1M | 72e487d115be77f49f64053893a23ecb58bc59cb | WGA-Gültigkeitsprüfungstool. Nicht im Update-Katalog. |
+Windows XP kann (Stand August 2021) weiterhin mit WSUS aktualisiert werden. WSUS3 auf einem vollständig aktualisierten Server 2008R2-System beherrscht SHA2 und kann damit noch Updates von Microsoft herunterladen, und das Windows XP-System aktualisiert sich dann vom WSUS-Server.
 
 ### Stammzertifikat-Update
 
