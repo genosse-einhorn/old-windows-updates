@@ -212,10 +212,15 @@ Diese Systemupdates werden als "optionale Updates" in Windows Update angeboten
 
 ### Weitere optionale Updates
 
+Diese Updates werden nicht über Windows Update angeboten, man findet sie nur in WSUS oder sonst irgendwo im Netz.
+
 | KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
 |-----|-------------|-------|-----------|-----------|
 | KB955704 | WindowsXP-KB955704-x86-DEU.exe | 3.4M | 45496f78d4e44119043e772903705f2705471d5e | exFAT |
 | KB932716 | WindowsXP-KB932716-v2-x86-DEU.exe | 764K | be3eb80f9ac46a9c57ce291398675463514d2b43 | IMAPIv2 |
+| KB2264107 | windowsxp-kb2264107-x86-deu.exe | 852K | 960035b47e8760428a55896c6aa84f92329d4095 | CWDIllegalInDllSearch-Patch |
+| KB969084 | windowsxp-kb969084-x86-deu.exe | 2.0M | ed7039095a5f388a200fe2dacd4ab2d2bba51eac | Windows 7 Remotedesktopclient |
+| KB2813347 | windowsxp-kb2813347-v2-x86-deu.exe | 2.2M | 611789f9f5dc70c73a5b7bf73b6e4bf069071544 | Sicherheitsupdate für Remotedesktopclient |
 
 ### Internet Explorer 8
 
