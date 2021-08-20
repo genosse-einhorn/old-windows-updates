@@ -243,56 +243,57 @@ Diese Updates werden nicht über Windows Update angeboten, man findet sie nur in
 
 ### .NET Framework 3.5 SP1 (enthält .NET Framework 2.0)
 
-| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
-|-----|-------------|-------|-----------|-----------|
-| | dotNetFx35Setup.exe | | | Zusammen mit den Ordnern `dotNetFX20`, `dotNetFX30`, `dotNetFX35`. Installiere mit `/lang:ENU`, sonst probiert er ein deutsches Sprachpaket während der Installation herunterzuladen |
-| | dotnetfx35langpack_x86de.exe | 33M | 91a16a2e3d7e0aae83e948a5890d94eeece49421 | Deutsches Sprachpaket. Unbedingt vor allen Sicherheitsupdates installieren! |
-| KB958484 | ndp35sp1-kb958484-x86.exe | 1,4M | 8b5036b48590c52e3edba8e297cd3017b7a3043c | |
-| KB958483 | ndp30sp2-kb958483-x86.exe | 7,0M | 2b03b54c0972c16ab6ce75f42ac4877af87ce844 | |
-| KB958481 | ndp20sp2-kb958481-x86.exe | 8,6M | 04fcde4b28dd4f6db7548831d35d1c6bf38e1335 | |
-| KB2836940 | ndp35sp1-kb2836940-x86.exe | 1,4M | 43c873339b256d55a01b8e0303d53153949fdec3 | |
-| KB2836941 | ndp20sp2-kb2836941-v2-x86.exe | 6,6M | 9e8d176f3476dc920c9ac845647ec47fdbfc5d38 | |
-| KB963707 | ndp35sp1-kb963707-x86.exe | 744K | 301b6cf8eaf5d2212895fcd9fc566414fb033e3e | |
-| KB982168 | ndp30sp2-kb982168-x86.exe | 21M | 55b498e96d1ea7db2d25302f30fc7f8fb5441158 | |
-| KB977354 | ndp30sp2-kb977354-v2-x86.exe | 16M | 36d5f7b86e33e09d4e1934c43bbfab04c64a280e | |
-| KB976576 | ndp20sp2-kb976576-x86.exe | 1,6M | 8e8121a8bddfb2095453335c593ffa22ef8e95ec | |
-| KB2898856 | ndp20sp2-kb2898856-x86.exe | 12M | 2b7b7f57a6d659ee926a6e381b388fff8bc3fd3e | |
-| KB2901111 | ndp20sp2-kb2901111-x86.exe | 6,6M | 610083bd9139a2bc3fbdcd026e2d0cce11cafbc0 | |
-| KB2861697 | ndp35sp1-kb2861697-x86.exe | 1,8M | 00011f82279874680d2d5812aad94303aa4af7db | |
-| KB2863239 | ndp20sp2-kb2863239-x86.exe | 952K | 972d289db3d1a2aea4ac427526b8be5566073d36 | |
-| KB2861189 | ndp30sp2-kb2861189-x86.exe | 824K | 59e2d4a7073c954c509c52297abff96f3ca51a66 | |
-| KB2844285 | ndp20sp2-kb2844285-v2-x86.exe | 2,7M | b2407fdad98f8c0a682ca61825804022cc35cde0 | |
-| KB2832411 | ndp30sp2-kb2832411-x86.exe | 19M | 5a169c4c0ca3819fe7745faf894e50708008efd1 | |
-| KB2840629 | ndp35sp1-kb2840629-x86.exe | 1,2M | 3a7890d49029e2383d7887b5abbd771cea442edf | |
-| KB2789643 | ndp20sp2-kb2789643-x86.exe | 6,1M | 252af3b6f715b2446fac3b169b1aa9711bce6bfd | |
-| KB2742596 | ndp20sp2-kb2742596-x86.exe | 9,8M | a0b11aaa133b0a15295bde2ec77680314f3200cc | |
-| KB2736416 | ndp35sp1-kb2736416-x86.exe | 1,5M | 93368f49226c00b8ddb32723196ddfbb275c8765 | |
-| KB2756918 | ndp30sp2-kb2756918-x86.exe | 21M | 0171f9344ff6aef983e78241b4463190c77d847a | |
-| KB2729450 | ndp20sp2-kb2729450-x86.exe | 15M | 2e3100a991fc67b39350d431055bb005f9bb0487 | |
-| KB2604111 | ndp35sp1-kb2604111-x86.exe | 820K | 4c2840092b5593dee6e81870f07803a3346ae74d | |
-| KB2604092 | ndp20sp2-kb2604092-x86.exe | 20M | 8ffc64599603264e79a0caaaf51e3393942fae06 | |
-| KB961118 | windowsxp-kb961118-x86-deu.exe | 684K | 81ac2d72aeacfa456fee2af9333bc0aad8f5f8be | |
+| Dateiname   | Größe | SHA1-Sum  | Kommentar |
+|-------------|-------|-----------|-----------|
+| dotnetfx35_x86.exe | 53M | 1aab3734ef80ad9a9ea342c887c3ea76340961e8 | Installiere mit `/lang:ENU`, sonst probiert er ein deutsches Sprachpaket während der Installation herunterzuladen |
+| dotnetfx35langpack_x86de.exe | 33M | 91a16a2e3d7e0aae83e948a5890d94eeece49421 | |
+| ndp20sp2-kb2604092-x86.exe | 20M | 8ffc64599603264e79a0caaaf51e3393942fae06 | |
+| ndp20sp2-kb2729450-x86.exe | 15M | 2e3100a991fc67b39350d431055bb005f9bb0487 | |
+| ndp20sp2-kb2742596-x86.exe | 9,8M | a0b11aaa133b0a15295bde2ec77680314f3200cc | |
+| ndp20sp2-kb2789643-x86.exe | 6,1M | 252af3b6f715b2446fac3b169b1aa9711bce6bfd | |
+| ndp20sp2-kb2836941-v2-x86.exe | 6,6M | 9e8d176f3476dc920c9ac845647ec47fdbfc5d38 | |
+| ndp20sp2-kb2844285-v2-x86.exe | 2,7M | b2407fdad98f8c0a682ca61825804022cc35cde0 | |
+| ndp20sp2-kb2863239-x86.exe | 952K | 972d289db3d1a2aea4ac427526b8be5566073d36 | |
+| ndp20sp2-kb2898856-x86.exe | 12M | 2b7b7f57a6d659ee926a6e381b388fff8bc3fd3e | |
+| ndp20sp2-kb2901111-x86.exe | 6,6M | 610083bd9139a2bc3fbdcd026e2d0cce11cafbc0 | |
+| ndp20sp2-kb958481-x86.exe | 8,6M | 04fcde4b28dd4f6db7548831d35d1c6bf38e1335 | |
+| ndp20sp2-kb976576-x86.exe | 1,6M | 8e8121a8bddfb2095453335c593ffa22ef8e95ec | |
+| ndp30sp2-kb2756918-x86.exe | 21M | 0171f9344ff6aef983e78241b4463190c77d847a | |
+| ndp30sp2-kb2832411-x86.exe | 19M | 5a169c4c0ca3819fe7745faf894e50708008efd1 | |
+| ndp30sp2-kb2861189-x86.exe | 824K | 59e2d4a7073c954c509c52297abff96f3ca51a66 | |
+| ndp30sp2-kb958483-x86.exe | 7,0M | 2b03b54c0972c16ab6ce75f42ac4877af87ce844 | |
+| ndp30sp2-kb982168-x86.exe | 21M | 55b498e96d1ea7db2d25302f30fc7f8fb5441158 | |
+| ndp35sp1-kb2604111-x86.exe | 820K | 4c2840092b5593dee6e81870f07803a3346ae74d | |
+| ndp35sp1-kb2736416-x86.exe | 1,5M | 93368f49226c00b8ddb32723196ddfbb275c8765 | |
+| ndp35sp1-kb2836940-x86.exe | 1,4M | 43c873339b256d55a01b8e0303d53153949fdec3 | |
+| ndp35sp1-kb2840629-x86.exe | 1,2M | 3a7890d49029e2383d7887b5abbd771cea442edf | |
+| ndp35sp1-kb2861697-x86.exe | 1,8M | 00011f82279874680d2d5812aad94303aa4af7db | |
+| ndp35sp1-kb958484-x86.exe | 1,4M | 8b5036b48590c52e3edba8e297cd3017b7a3043c | |
+| ndp35sp1-kb963707-x86.exe | 744K | 301b6cf8eaf5d2212895fcd9fc566414fb033e3e | |
+| windowsxp-kb961118-x86-deu.exe | 684K | 81ac2d72aeacfa456fee2af9333bc0aad8f5f8be | |
 
 ### .NET Framework 4.0
 
 | KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
 |-----|-------------|-------|-----------|-----------|
-|  | dotNetFx40_Client_x86.exe     | 29M  | 32a62c2f30cdac4f5b827e7ac0cd0b3356dd8ab4 | .NET Framework 4.0 Client Profile |
-|  | dotNetFx40LP_Client_x86de.exe | 5,8M | cb969baeeaa1acc68c994af245c0d30a5bc10ce9 | Sprachpaket Deutsch |
-| KB2468871 | ndp40-kb2468871-v2-x86.exe | 19M | 8cb1f5eb7eda5329e69629dff3fd3757bf980717 | |
-| KB2533523 | ndp40-kb2533523-x86.exe | 20M | e4d68d030e6577b5183ce441dbcc62d2d3112f29 | |
-| KB2600217 | ndp40-kb2600217-x86.exe | 17M | 439b695de8c8acd1b33aa4563ddc5536f9e3442e | |
-| KB2604121 | ndp40-kb2604121-x86.exe | 23M | 5ba2f9d2a8a395d125d7c3844cb489697664de2b | |
-| KB2729449 | ndp40-kb2729449-x86.exe | 14M | 17cb1faf25f589d50483dae8a8b1dd536e5651c0 | |
-| KB2737019 | ndp40-kb2737019-x86.exe | 11M | 5a0eb52ec395a87022e1d1d37577c4ba6c64d075 | |
-| KB2742595 | ndp40-kb2742595-x86.exe | 12M | d1258e5d0d6e3291f20f7c5efdf11be6ed9946e5 | |
-| KB2789642 | ndp40-kb2789642-x86.exe | 4,1M | 3a1d5c9a88c876b3f5a066b8a0aa34334b3a97d0 | |
-| KB2836939 | ndp40-kb2836939-v3-x86.exe | 5,4M | 5f7e7f9811136bd3dfeb994d75a96aece646ea3d | |
-| KB2840628 | ndp40-kb2840628-v2-x86.exe | 13M | 891d50ff3c1322db3fb0fde222ebb0aaa5260272 | |
-| KB2858302 | ndp40-kb2858302-v2-x86.exe | 6,2M | 50e0381ccb5c2055f1ef0dffd6d9af42fcf5957a | |
-| KB2861188 | ndp40-kb2861188-x86.exe | 11M | f978f7e7b33c98bb21fba3e45cff8675132e7787 | |
-| KB2898855 | ndp40-kb2898855-v2-x86.exe | 12M | 3b05125dab14ecd4d8c804848f39ac66f6941511 | |
-| KB2901110 | ndp40-kb2901110-v2-x86.exe | 5,9M | 9e9c5c03aefbf129dda5f03906d920c5b5f2b36f | |
+| dotNetFx40_Full_x86.exe | 36M | 212d693507e4d4ceb927ca275ced4cc687a25492 | |
+| dotNetFx40LP_Full_x86de.exe | 6,6M | c3a5c62304dcd1f2eeb3acebe2daa70d6398a42d | |
+| ndp40-kb2468871-v2-x86.exe | 19M | 8cb1f5eb7eda5329e69629dff3fd3757bf980717 | |
+| ndp40-kb2487367-x86.exe | 2,1M | 4938d9c6adf59f400e6df20387cf23026dec4a16 | |
+| ndp40-kb2533523-x86.exe | 20M | e4d68d030e6577b5183ce441dbcc62d2d3112f29 | |
+| ndp40-kb2600217-x86.exe | 17M | 439b695de8c8acd1b33aa4563ddc5536f9e3442e | |
+| ndp40-kb2604121-x86.exe | 23M | 5ba2f9d2a8a395d125d7c3844cb489697664de2b | |
+| ndp40-kb2729449-x86.exe | 14M | 17cb1faf25f589d50483dae8a8b1dd536e5651c0 | |
+| ndp40-kb2736428-x86.exe | 2,1M | 69a15697f7c9c976b933bd46869c895e9a1b0356 | |
+| ndp40-kb2737019-x86.exe | 11M | 5a0eb52ec395a87022e1d1d37577c4ba6c64d075 | |
+| ndp40-kb2742595-x86.exe | 12M | d1258e5d0d6e3291f20f7c5efdf11be6ed9946e5 | |
+| ndp40-kb2789642-x86.exe | 4,1M | 3a1d5c9a88c876b3f5a066b8a0aa34334b3a97d0 | |
+| ndp40-kb2836939-x86.exe | 5,4M | cef77927432048cd36340da5d972e349d57764f6 | |
+| ndp40-kb2840628-v2-x86.exe | 13M | 891d50ff3c1322db3fb0fde222ebb0aaa5260272 | |
+| ndp40-kb2858302-v2-x86.exe | 6,2M | 50e0381ccb5c2055f1ef0dffd6d9af42fcf5957a | |
+| ndp40-kb2861188-x86.exe | 11M | f978f7e7b33c98bb21fba3e45cff8675132e7787 | |
+| ndp40-kb2898855-v2-x86.exe | 12M | 3b05125dab14ecd4d8c804848f39ac66f6941511 | |
+| ndp40-kb2901110-v2-x86.exe | 5,9M | 9e9c5c03aefbf129dda5f03906d920c5b5f2b36f | |
 
 ### Windows Search 4.0
 
