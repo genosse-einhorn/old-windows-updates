@@ -96,11 +96,9 @@ Note that the *4 floppy drives bug* might return since the `Add New Hardware` wi
 
 # I want higher screen resolution and more than 16 colors
 
-Higher screen resolutions are possible with the [VBEMP](https://bearwindows.zcm.com.au/vbe9x.htm) driver (`140214.zip`, sha256sum: 1b852dc62fbba02ac6cc615b45ea749fdc8807c369c27bd1d4906f320d7ea33b or `vbemp9x.zip`, sha256sum: f9246091ccb626f2fece700a438cb4448f922e2a58e7d757fb5f6a435cf07efb).
+Higher screen resolutions are possible with Michal Necasek's [boxv9x driver](https://www.os2museum.com/wp/windows-9x-video-minidriver-hd/).
 
-* You should use the driver in the `UNI` subfolder when using the `vbemp9x.zip` version or one of the `032MB`, `064MB`, `128MB` subfolders when using the `140214.zip` version.
 * Install via *Control Panel*, *Display*, *Settings*, *Advanced Properties*, *Adapter*, *Change...*, *Have Disk...*
-* RunDLL32 will crash when installing the driver. The Installation succeeded anyway, press `Close` and reboot.
 * Make sure to **increase the amount of video RAM** in the virtual machine settings to **at least 64MB**, otherwise the screen will stay black
 * If Windows 95 requests you to specify a monitor, choose *Plug and Play Monitor*
 
