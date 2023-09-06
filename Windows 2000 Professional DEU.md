@@ -143,25 +143,25 @@ Das Installationspaket für IE6 besteht aus mehreren Dateien:
 | SCRIPTDE.CAB | 804K | 993b6fdbd9605869d1e300a21c16d504b7c2e2f1 | |
 | WAB.CAB | 592K | bb3fc0488125e9d9d344e7ba8258ff4a528988f6 | |
 
+Es existieren verschiedene Varianten des Installationspakets.
+
 Nach der Installation müssen Sicherheitsupdates installiert werden. Darunter auch einige
-Updates aus der vorherigen Liste, da der IE6 bereits installierte Dateien eiskalt
-mit älteren Versionen überschreibt.
+Updates aus der vorherigen Liste, da der IE6 bereits installierte Dateien mit älteren Versionen überschreibt.
 
 | KB  | Dateiname   | Größe | SHA1      | Kommentar |
 |-----|-------------|-------|-----------|-----------|
-| KB891861 | windows2000-kb891861-v2-x86-deu.exe | 31M | e2c13be516127d3b1de17a60b9fadfb11862b86b | Update Rollup |
-| KB905495 | ie6.0sp1-kb905495-windows2000-x86-deu.exe | 564K | e6ba0fa7f49fe41d04512809f06d32ebf1807894 | |
-| KB923191 | windows2000-kb923191-x86-deu.exe | 780K | 8e4346dae5497632c090173df604d194b2b5f5c5 | |
-| KB937143 | ie6.0sp1-kb937143-windows2000-x86-deu.exe | 4,1M | 2427fd785065dce785a14bf4028a20589fb89b8e | |
-| KB944338 | windows2000-kb944338-x86-deu.exe | 820K | fefd6d9d8df1bf61e4106f5a113297fd06063762 | |
-| KB956844 | windows2000-kb956844-x86-deu.exe | 552K | cbd6e722d67210598c9d255f7e1bd739e528a4d6 | |
-| KB958869 | ie6.0sp1-kb958869-windows2000-x86-deu.exe | 1,5M | ef7a8730e8167791657db5c88eacbdab8d203c88 | |
-| KB971961 | windows2000-kb971961-x86-deu.exe | 684K | ece99f17812fdd634db22f1a8db3a5eb2fb12edc | |
-| KB973869 | windows2000-kb973869-x86-deu.exe | 532K | d221cd7e8192c36f9a8a309bb9d50a9df1a4d246 | |
-| KB973904 | windows2000-kb973904-x86-deu.exe | 876K | 5af100843acb0b363bfe0a11ed275e2f5903f6b7 | |
+| KB329115 | windows2000-kb329115-x86-deu | 328K | 956bfe1b6e21859ad25d095e7f8d353ed4034b3e | cryptdlg.dll |
+| KB905495 | ie6.0sp1-kb905495-windows2000-x86-deu.exe | 564K | e6ba0fa7f49fe41d04512809f06d32ebf1807894 | msieftp.dll |
+| KB923191 | windows2000-kb923191-x86-deu.exe | 780K | 8e4346dae5497632c090173df604d194b2b5f5c5 | comctl32.dll |
+| KB937143 | ie6.0sp1-kb937143-windows2000-x86-deu.exe | 4,1M | 2427fd785065dce785a14bf4028a20589fb89b8e | browseui.dll, cdfview.dll, danim.dll, dxtmsft.dll, dxtrans.dll, iepeers.dll, inseng.dll, jsproxy.dll, mshtml.dll, msrating.dll, mstime.dll, pngfilt.dll, shdocvw.dll, shlwapi.dll, urlmon.dll, wininet.dll |
+| KB956844 | windows2000-kb956844-x86-deu.exe | 552K | cbd6e722d67210598c9d255f7e1bd739e528a4d6 | triedit.dll |
+| KB958869 | ie6.0sp1-kb958869-windows2000-x86-deu.exe | 1,5M | ef7a8730e8167791657db5c88eacbdab8d203c88 | vgx.dll |
+| KB971961 | windows2000-kb971961-x86-deu.exe | 684K | ece99f17812fdd634db22f1a8db3a5eb2fb12edc | jscript.dll |
+| KB973869 | windows2000-kb973869-x86-deu.exe | 532K | d221cd7e8192c36f9a8a309bb9d50a9df1a4d246 | dhtmled.ocx |
+| KB973904 | windows2000-kb973904-x86-deu.exe | 876K | 5af100843acb0b363bfe0a11ed275e2f5903f6b7 | html32.cnv |
 | KB978542 | oe6.0sp1-kb978542-windows2000-x86-deu.exe | 2,4M | 5691ce3facb214a8fb87732f9121ce22fab81c97 | |
-| KB980195 | windows2000-kb980195-x86-deu.exe | 492K | cc9f888e79f94df2316d0ae97fa540c4d2539c0f | |
-| KB981350 | windows2000-kb981350-x86-deu.exe | 660K | 40d5b9aad64df4907f563983a0015ca266812a00 | |
+| KB980195 | windows2000-kb980195-x86-deu.exe | 492K | cc9f888e79f94df2316d0ae97fa540c4d2539c0f | ActiveX Killbits |
+| KB981350 | windows2000-kb981350-x86-deu.exe | 660K | 40d5b9aad64df4907f563983a0015ca266812a00 | vbscript.dll |
 
 
 ### Optionale Updates
@@ -233,7 +233,7 @@ einen neuen Windows Update Agent.
 
 | KB  | Dateiname   | Größe | SHA1      | Kommentar |
 |-----|-------------|-------|-----------|-----------|
-| | windowsupdateagent30-x86.exe | 6,5M | 50186ec913a4896a92d72e5e5384693bf3a71182 | |
+| | windowsupdateagent30-x86.exe | 6,5M | 50186ec913a4896a92d72e5e5384693bf3a71182 | Installiere mit Parameter `/wuforce`, anschließend Neustart |
 |   | rootsupd.exe | 236K | fe44934fd80dd11fec2f0f9b24431658a4f6d589 | Stammzertifikatupdate aus Windows Update. Es geistern auch neuere `rootsupd.exe` im Netz herum, die ebenfalls funktionieren. |
 
 
