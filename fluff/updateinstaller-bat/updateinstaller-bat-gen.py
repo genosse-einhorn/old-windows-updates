@@ -68,7 +68,7 @@ for l in args.inlst:
 
 for i in range(0, len(cl)):
     c, t = cl[i]
-    bat('<NUL (SET /P =[{:02}%%] {}...)'.format(((i + 1) * 100)//len(cl), t))
+    bat('<NUL (SET /P =[{:02}%%] {}...)'.format(min(((i + 1) * 100)//len(cl), 99), t))
     bat(c)
     bat('CALL :CHECKERROR')
 
