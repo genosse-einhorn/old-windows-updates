@@ -31,6 +31,7 @@ Updates für den Media Player und Internet Explorer 8 fehlen in dieser Tabelle, 
 | KB952004 | windowsxp-kb952004-x86-deu.exe | 1012K | ad282f76179619c2f125922683fc397762cbb59a | |
 | KB952287 | windowsxp-kb952287-x86-deu.exe | 652K | 5e44d3ec9b6500ca6bfc3fa4f6dd0dd946aa7235 | |
 | KB952954 | windowsxp-kb952954-x86-deu.exe | 528K | 950750b938475f80ff21c18632d7a418e8dc0e02 | |
+| KB953155 | windowsxp-kb953155-x86-deu.exe | 572K | f5545f2dad2ac35e412dae012c9ea72c1bcc91db97de54c8f1e05b911046c430 | |
 | KB956572 | windowsxp-kb956572-x86-deu.exe | 4,5M | 99122b3a29b7455624721aaca0c8c4241e78d2ab | |
 | KB956844 | windowsxp-kb956844-x86-deu.exe | 560K | 4f2537ad7b78febd66d5534bc230b96038ba3c36 | |
 | KB959426 | windowsxp-kb959426-x86-deu.exe | 840K | 76263d1e1f49d927517c49f2c570e5f3af84847c | |
@@ -51,9 +52,11 @@ Updates für den Media Player und Internet Explorer 8 fehlen in dieser Tabelle, 
 | KB974392 | windowsxp-kb974392-x86-deu.exe | 592K | cf110bf3e66aca3752ab0661cf1de1e057e6e2d5 | |
 | KB974571 | windowsxp-kb974571-x86-deu.exe | 520K | 9601a32f9ebcd7acf50463bde877ddbcd6f3074f | |
 | KB975025 | windowsxp-kb975025-x86-deu.exe | 652K | 5ac01419cb805a842f8ca75d4652d6bd45083325 | |
+| KB975254 | windowsxp-kb975254-x86-deu.exe | 540K | f824b8ec6f3c64297ceb67d71bec1fbe22f98796781a56feb597c0e93830a6fe | |
 | KB975467 | windowsxp-kb975467-x86-deu.exe | 740K | 547a3c495e277458431e5b69295a4ea05e04e51d | |
 | KB975560 | windowsxp-kb975560-x86-deu.exe | 1,1M | a387d1718237fac06f8e07a7db8cf97190680142 | |
 | KB975713 | windowsxp-kb975713-x86-deu.exe | 692K | a4233e6225ab2fa84605de14d8d24c8cc1cff3f5 | |
+| KB976323 | windowsxp-kb976323-x86-deu.exe | 656K | 58444186e0e700488ef905591bdafe4b8d40201d37d85a0dcac85a17dce219c5 | |
 | KB977816 | windowsxp-kb977816-x86-deu.exe | 672K | 0b72bcdaceca4a8132a6121e1623e1e811562ee0 | |
 | KB977914 | windowsxp-kb977914-x86-deu.exe | 568K | 5718766a6e2637f2223b78b4239ce85eca28df7f | |
 | KB978338 | windowsxp-kb978338-x86-deu.exe | 632K | 134f94e894466a0b66f3d5d2f755665cc6d7ee1c | |
@@ -66,7 +69,9 @@ Updates für den Media Player und Internet Explorer 8 fehlen in dieser Tabelle, 
 | KB982132 | windowsxp-kb982132-x86-deu.exe | 548K | 36f5651b05b27350d86ab2fda4c3f0c7c7446772 | |
 | KB982665 | windowsxp-kb982665-x86-deu.exe | 524K | 4ffbcdd33ec002182869e84ff41ad6ab32925b65 | |
 | KB2115168 | windowsxp-kb2115168-x86-deu.exe | 548K | 5c7103c23635aa7739ad3604ece9c40e39529bb7 | |
+| KB2124261 | windowsxp-kb2124261-x86-deu.exe | 636K | 55af730bddb430944f07f47703e01863c6b2c7f95551ee2763163e37af9e3389 | |
 | KB2229593 | windowsxp-kb2229593-x86-deu.exe | 736K | 656064c08387c51c6612c92477ebc4ed6e390396 | |
+| KB2290570 | windowsxp-kb2290570-x86-deu.exe | 596K | 8106170a3e95ceeeba139cf47e6ac8b4679fcea51f50d9c39d744d93d5ad251e | |
 | KB2296011 | windowsxp-kb2296011-x86-deu.exe | 1,1M | f3d62a877f30f18324908ba97f2a2302ea1e4981 | |
 | KB2345886 | windowsxp-kb2345886-x86-deu.exe | 700K | a5b3a537bd6297a9ebf159e350d9a6ade66a8517 | |
 | KB2347290 | windowsxp-kb2347290-x86-deu.exe | 512K | 4d4057af1813129c9822188a0d5c2d928ef2dcc2 | |
@@ -81,6 +86,7 @@ Updates für den Media Player und Internet Explorer 8 fehlen in dieser Tabelle, 
 | KB2481109 | windowsxp-kb2481109-x86-deu.exe | 1,6M | 2b876e8edef06a4c7a36f119bcbf7a6decfe180d | |
 | KB2483185 | windowsxp-kb2483185-x86-deu.exe | 3,1M | a4c9c996e40da68682223d35fa7c20e5da173a61 | |
 | KB2485663 | windowsxp-kb2485663-x86-deu.exe | 616K | d2624922cefad4ae97acaf5693a49e925932e63a | |
+| KB2491683 | windowsxp-kb2491683-x86-deu.exe | 564K | d9ef0e35147bf274fb2a6324279b8f5584a72cce8da820003f220c3b1eb82359 | |
 | KB2506212 | windowsxp-kb2506212-x86-deu.exe | 948K | da2b388c036e4f58c1f067b2ed74cb04dd55dd1b | |
 | KB2507938 | windowsxp-kb2507938-x86-deu.exe | 644K | f3b9036d4b2671cc2d29b8157841aa45d639c1e0 | |
 | KB2508429 | windowsxp-kb2508429-x86-deu.exe | 660K | e3c57486f0caf8e4bd387d2f7dbcd3ce0229d6ba | |
@@ -129,6 +135,7 @@ Updates für den Media Player und Internet Explorer 8 fehlen in dieser Tabelle, 
 | KB2862330 | windowsxp-kb2862330-x86-deu.exe | 600K | 0392603ebd5b4a4d6b9d8316848d2a1ac02c9fa9 | |
 | KB2862335 | windowsxp-kb2862335-x86-deu.exe | 528K | 66f0e30bf64ec53f06cbb2ed50b3432c6ab883d8 | |
 | KB2864063 | windowsxp-kb2864063-x86-deu.exe | 640K | 9a32f7b0b8e9f9b4e39fbb3888efa0820833f190 | |
+| KB2868038 | windowsxp-kb2868038-x86-deu.exe | 616K | 78cc16aa374af8dda367a01e3420adef41fe24e9a5f08aa9d775c8dd414019d4 | |
 | KB2868626 | windowsxp-kb2868626-x86-deu.exe | 764K | 6574daf82ea780a306b560f9d7fb65ffccc42710 | |
 | KB2876217 | windowsxp-kb2876217-x86-deu.exe | 1,1M | 24f89878e747523ebf0027e3c149a8cc8d885fd5 | |
 | KB2876331 | windowsxp-kb2876331-x86-deu.exe | 640K | 3b9b168f17fb512761f2ec902695f8b44309da59 | |
