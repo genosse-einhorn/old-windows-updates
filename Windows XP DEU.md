@@ -218,6 +218,14 @@ Anschließend kann das Service Pack 3 installiert werden. Zusätzlich zum SP3 un
 | KB2834905 | windowsxp-windowsmedia-kb2834905-v2-x86-deu.exe | 776K | aeb30ffa869421b1a2347892ef6d8e7ece67567aca495c0076198982f0ad5026 | |
 
 
+### Updates für die Tablet PC Edition 2005
+
+| KB  | Dateiname   | Größe | SHA256  | Kommentar |
+|-----|-------------|-------|---------|-----------|
+| KB2660649 | windowsxp-kb2660649-x86-deu.exe | 1,1M | 578a18c61bd1896d25088f7cb12e5a00826f1cd9c65336ddcb3bd0c0c49ccd18 | |
+| KB2835364 | windowsxp-kb2835364-x86-deu.exe | 1,2M | f8554c3c86ee05800a9835a368d5673a3b93ee56991e84ac31b3c0b40b9e3037 | |
+
+
 ### Media Player 10
 
 | mp10setup.exe | mp10setup.exe | 13M | 224093266f849fc77b770b7262846f13964d7b5a2d1c5cde4f0f20c38dcc6c2b | |
