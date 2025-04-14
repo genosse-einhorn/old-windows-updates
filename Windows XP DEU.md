@@ -187,20 +187,20 @@ Nicht installieren, falls sowieso der Media Player 10 oder 11 installiert werden
 ### Updates für die Media Center Edition 2005
 
 
-* Das Update Rollup 2 erfordert das .NET Framework 1.1
+* Das Update Rollup 2 erfordert das .NET Framework 1.1 Service Pack 1
 * Das Update Rollup 2 muss vor dem Service Pack 3 installiert werden. Eine nachträgliche Installation schlägt fehl oder führt zu einem nicht funktionsfähigen Media Center
 * Das Update Rollup 2 liegt (teilweise) als dritte CD bei
 
-| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
-|-----|-------------|-------|-----------|-----------|
-| KB900325 | WindowsXPMediaCenter2005-KB900325-ger.exe | 30M | dd11a11070cdea253bd702483d214a53bf5e8433ecbb0f69b60c78a9b15f1ec0 | Update Rollup 2. Enthält mehrere Updates, mindestens `KB900325.exe` und `wmfdist95` sind notwendig. |
+| KB  | Dateiname   | Größe | SHA256 | Kommentar |
+|-----|-------------|-------|--------|-----------|
+| KB900325 | WindowsXPMediaCenter2005-KB900325-ger.exe | 30M | dd11a11070cdea253bd702483d214a53bf5e8433ecbb0f69b60c78a9b15f1ec0 | Update Rollup 2. Enthält mehrere Updates, mindestens `KB900325.exe` und `wmfdist95.exe` sind notwendig. |
 | KB925766 | windowsxpmediacenter2005-kb925766-deu.exe | 3,4M | c5b69225c8dcf2fe738513d89177c1b04e583d3042f98dd23038563b60c71855 | Update Rollup für das Update Rollup |
 
 Anschließend kann das Service Pack 3 installiert werden. Zusätzlich zum SP3 und den obigen Updates verlangt die Media Center Edition folgende Updates:
 
 
-| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
-|-----|-------------|-------|-----------|-----------|
+| KB  | Dateiname   | Größe | SHA256  | Kommentar |
+|-----|-------------|-------|---------|-----------|
 | KB979904 | ndp1.0sp3-kb979904-x86-ocm-deu.exe | 588K | 3ec983f89c7e3e95645d5023034aae50b554fedb248063e970672fe0c5175470 | |
 | KB2742607 | ndp1.0sp3-kb2742607-x86-ocm-deu.exe | 5,3M | 1d9ef4b9cb98f71b5dee921892873815fdf47326c1fd694cefd451f5cdcf2529 | |
 | KB2904878 | ndp1.0sp3-kb2904878-x86-ocm-deu.exe | 4,0M | 129821d9416b67a6b7fdf3bec4e95c056ef26d20a70c3d8fbefb0aff1e45f27d | |
