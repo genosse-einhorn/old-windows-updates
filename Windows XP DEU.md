@@ -172,7 +172,7 @@ Diese Sicherheitsupdates wurden nach Ablauf des offiziellen Supports freigegeben
 
 ### Updates für den integrierten Media Player 9
 
-Nicht installieren, falls sowieso der Media Player 11 installiert werden soll. Nicht für die Media Center Edition.
+Nicht installieren, falls sowieso der Media Player 10 oder 11 installiert werden soll. Nicht für die Media Center Edition.
 
 | KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
 |-----|-------------|-------|-----------|-----------|
@@ -216,6 +216,19 @@ Anschließend kann das Service Pack 3 installiert werden. Zusätzlich zum SP3 un
 | KB2619340 | windowsxpmediacenter2005-kb2619340-deu.exe | 636K | 0094ac04ff4a7eb0fa7392d7716e6aa4e1addb30af7c1ee84eefb6478fccddb4 | |
 | KB2628259 | windowsxpmediacenter2005-kb2628259-deu.exe | 536K | b172aec4aa2f8b00a6b649252dcf61c36bc952932716f2792a4c8d0d757e634d | |
 | KB2834905 | windowsxp-windowsmedia-kb2834905-v2-x86-deu.exe | 776K | aeb30ffa869421b1a2347892ef6d8e7ece67567aca495c0076198982f0ad5026 | |
+
+
+### Media Player 10
+
+| mp10setup.exe | mp10setup.exe | 13M | 224093266f849fc77b770b7262846f13964d7b5a2d1c5cde4f0f20c38dcc6c2b | |
+| KB902344 | WindowsMedia10-KB902344-x86-INTL.exe | 616K | 637ef2e55de34333496ba1c67700444c15e3b86c75afcff0c39ad7078bc9284a | |
+| KB941569 | windowsxp-kb941569-x86-deu.exe | 2,1M | 87e6507cbdbcc07e4d4eb0ea69988f17cb6fbab24f67712a0223d0aa41c8e3eb | |
+| KB2378111 | windowsxp-windowsmedia-kb2378111-x86-deu.exe | 9,4M | 20d737f6bb877f2fb348dbfd0116cbbe7250fa44ff204b8bd6bd42501ae19478 | |
+| KB2834903 | windowsxp-windowsmedia-kb2834903-v2-x86-deu.exe | 796K | 617a5e4bbf64e6a00bd255d8eb6dff4abe036978744d1bf20a8214e2fed7c9ee | |
+| KB952069 | windowsxp-windowsmedia-kb952069-v2-x86-deu.exe | 7,4M | 0f52523bad44960098f1fa5b3b0c0032058d0fd86e3844fd6c8265f0433acd5d | |
+| KB954155 | windowsxp-windowsmedia-kb954155-x86-deu.exe | 1,1M | 58efb06aaddf4968be8109aeee0ab18b34ea70b06b3f49b927630c750264201f | |
+| KB973540 | windowsxp-windowsmedia-kb973540-x86-deu.exe | 9,6M | b56c6660e6d89de6ec19420b353c45b01464e9bcb60a2d5ee5cad25ad7bccc2a | |
+| KB978695 | windowsxp-windowsmedia-kb978695-x86-deu.exe | 4,3M | 34d6f4260dfa4a4908d95350baf2189d496d45a6aa91b2d8139101aba21f0a79 | |
 
 
 ### Media Player 11
