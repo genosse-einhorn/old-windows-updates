@@ -172,7 +172,7 @@ Diese Sicherheitsupdates wurden nach Ablauf des offiziellen Supports freigegeben
 
 ### Updates für den integrierten Media Player 9
 
-Nicht installieren, falls sowieso der Media Player 11 installiert werden soll.
+Nicht installieren, falls sowieso der Media Player 11 installiert werden soll. Nicht für die Media Center Edition.
 
 | KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
 |-----|-------------|-------|-----------|-----------|
@@ -183,6 +183,40 @@ Nicht installieren, falls sowieso der Media Player 11 installiert werden soll.
 | KB978695 | windowsxp-windowsmedia-kb978695-x86-deu.exe | 4,3M | 087108b470354b3d1f4bbf6d8983e38c1f1fb0bf | |
 | KB2378111 | windowsxp-windowsmedia-kb2378111-x86-deu.exe | 9,4M | 5ecc5bc343c6fafdd6a55f2145a29ce9068d4cf1 | |
 | KB2803821 | windowsxp-windowsmedia-kb2803821-v2-x86-deu.exe | 772K | e9311b2f0794b4df6d619df9b279830dbb1299bc | |
+
+### Updates für die Media Center Edition 2005
+
+
+* Das Update Rollup 2 erfordert das .NET Framework 1.1
+* Das Update Rollup 2 muss vor dem Service Pack 3 installiert werden. Eine nachträgliche Installation schlägt fehl oder führt zu einem nicht funktionsfähigen Media Center
+* Das Update Rollup 2 liegt (teilweise) als dritte CD bei
+
+| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
+|-----|-------------|-------|-----------|-----------|
+| KB900325 | WindowsXPMediaCenter2005-KB900325-ger.exe | 30M | dd11a11070cdea253bd702483d214a53bf5e8433ecbb0f69b60c78a9b15f1ec0 | Update Rollup 2. Enthält mehrere Updates, mindestens `KB900325.exe` und `wmfdist95` sind notwendig. |
+| KB925766 | windowsxpmediacenter2005-kb925766-deu.exe | 3,4M | c5b69225c8dcf2fe738513d89177c1b04e583d3042f98dd23038563b60c71855 | Update Rollup für das Update Rollup |
+
+Anschließend kann das Service Pack 3 installiert werden. Zusätzlich zum SP3 und den obigen Updates verlangt die Media Center Edition folgende Updates:
+
+
+| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
+|-----|-------------|-------|-----------|-----------|
+| KB979904 | ndp1.0sp3-kb979904-x86-ocm-deu.exe | 588K | 3ec983f89c7e3e95645d5023034aae50b554fedb248063e970672fe0c5175470 | |
+| KB2742607 | ndp1.0sp3-kb2742607-x86-ocm-deu.exe | 5,3M | 1d9ef4b9cb98f71b5dee921892873815fdf47326c1fd694cefd451f5cdcf2529 | |
+| KB2904878 | ndp1.0sp3-kb2904878-x86-ocm-deu.exe | 4,0M | 129821d9416b67a6b7fdf3bec4e95c056ef26d20a70c3d8fbefb0aff1e45f27d | |
+| KB941569 | windowsxp-kb941569-x86-deu.exe | 2,1M | 87e6507cbdbcc07e4d4eb0ea69988f17cb6fbab24f67712a0223d0aa41c8e3eb | |
+| KB952069 | windowsxp-windowsmedia-kb952069-v2-x86-deu.exe | 7,4M | 0f52523bad44960098f1fa5b3b0c0032058d0fd86e3844fd6c8265f0433acd5d | |
+| KB954155 | windowsxp-windowsmedia-kb954155-x86-deu.exe | 1,1M | 58efb06aaddf4968be8109aeee0ab18b34ea70b06b3f49b927630c750264201f | |
+| KB973540 | windowsxp-windowsmedia-kb973540-x86-deu.exe | 9,6M | b56c6660e6d89de6ec19420b353c45b01464e9bcb60a2d5ee5cad25ad7bccc2a | |
+| KB975558 | windowsxp-windowsmedia-kb975558-x86-deu.exe | 828K | 7327980f6d6c45367068ac767be5025ae9ff9df5365ebabd25abedbcad26286c | |
+| KB978695 | windowsxp-windowsmedia-kb978695-x86-deu.exe | 4,3M | 34d6f4260dfa4a4908d95350baf2189d496d45a6aa91b2d8139101aba21f0a79 | |
+| KB2378111 | windowsxp-windowsmedia-kb2378111-x86-deu.exe | 9,4M | 20d737f6bb877f2fb348dbfd0116cbbe7250fa44ff204b8bd6bd42501ae19478 | |
+| KB973768 | windowsxpmediacenter2005-kb973768-deu.exe | 556K | 3e98cc8b6005aa3aaac3b8d71d0e79f10266e8bc198e34bc02fa4f7486e8f45e | |
+| KB2502898 | windowsxpmediacenter2005-kb2502898-deu.exe | 748K | e8c04f56909309cbab45b1725132e872895a5b4403196c204b03f81ecf9b465f | |
+| KB2619340 | windowsxpmediacenter2005-kb2619340-deu.exe | 636K | 0094ac04ff4a7eb0fa7392d7716e6aa4e1addb30af7c1ee84eefb6478fccddb4 | |
+| KB2628259 | windowsxpmediacenter2005-kb2628259-deu.exe | 536K | b172aec4aa2f8b00a6b649252dcf61c36bc952932716f2792a4c8d0d757e634d | |
+| KB2834905 | windowsxp-windowsmedia-kb2834905-v2-x86-deu.exe | 776K | aeb30ffa869421b1a2347892ef6d8e7ece67567aca495c0076198982f0ad5026 | |
+
 
 ### Media Player 11
 
