@@ -24,6 +24,19 @@ Take the bootdisk and copy the other files onto it.
 
 Modify `CONFIG.SYS` and `DRVCOPY.INF` to point to your chosen CD driver.
 
+## Extras
+
+* The startup disk contains potentially useless stuff like `UNINSTAL.EXE` or `REGEDIT.EXE`.
+  If you delete this, you'll have space left for e.g. [patcher9x](https://github.com/JHRobotics/patcher9x)
+* Not all CDs contain `OEMSETUP.EXE`, especially not the retail and update CDs.
+  If you have such a disk, you'll have to partition and format the drive manually
+  and then run `SETUP.EXE /K A:\DRVCOPY.INF` (or just `SETUP.EXE` if you don't want
+  the real mode CD driver to be permanently installed).
+* `OEMSETUP.EXE` checks the DOS version. A DOS 7.0 bootdisk made by the RTM or OSR1 (A) version of Win95
+  can only be used to install Win95 RTM or OSR1. A DOS 7.1 bootdisk made by some OSR2 (B/C) version
+  can be used to install Win95 OSR2 only (or Win98 for that matter, but why would you do this when
+  the Win98 cd is already bootable)
+
 ## Credits
 
 * `DRVCOPY.INF` is basically stolen from some official OEM boot disk.
