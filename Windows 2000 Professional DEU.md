@@ -243,3 +243,42 @@ einen neuen Windows Update Agent.
 |----------|---------|------------|------|---------------|
 | Firefox | 10 ESR | 15M | a8fdc3adefaefac493009a88d33a9b4d1a0e4560 | http://ftp.mozilla.org/pub/firefox/releases/10.0.9esr/win32/de/Firefox%20Setup%2010.0.9esr.exe |
 | Adobe Reader | 9.5 | 48M | 8692a205c8f80f73a207ac365dfdf724bc48dfc4 | http://ftp.adobe.com/pub/adobe/reader/win/9.x/9.5.0/de_DE/AdbeRdr950_de_DE.msi |
+
+# Updates in die Installations-CD integrieren
+
+Dies ist meine Methode, basierend auf der manuellen Methode eines [alten KB-Artikels](https://support.microsoft.com/en-us/topic/how-to-integrate-software-updates-into-your-windows-installation-source-files-58beba8e-befa-91ae-63eb-d661e5910937).
+
+* Alle zu integrierenden Pakete *entpacken* mit `windows2000-kb4711-x86-deu.exe /x:i386\svcpack\kb4711`
+    * Das klingt nach Speicherverschwendung, spart in Wirklichkeit aber Platz auf der CD,
+      sofern die zum Erstellen des Abbilds benutzten Werkzeuge duplizierte Dateien zusammenführen
+* Für jedes Paket schauen, ob die entpackten Dateien im `i386`-Ordner vorhanden sind.
+    * Auch komprimierte Version `datei.ex_` prüfen
+    * Ersetzen, wenn Versionsnummer höher (Änderungsdatum reicht notfalls auch...)
+    * Rekursiv auf Unterordner anwenden (z. B. `uniproc`)
+* Das Hotfix-Installationsprogramm in jedem entpackten Paket vereinheitlichen.
+    * Dazu aus dem neuesten Paket die Dateien `spmsg.dll`, `spuninst.exe`, `update\spcustom.dll`, `update\update.exe`, `update\updspapi.dll` nehmen
+    * Die SWAPRUN-Schalter auf allen diesen Dateien entfernen mit `editbin /swaprun:!net /swaprun:!cd /release spmsg.dll`. Sonst wird bei zu vielen Paketen der Auslagerungsspeicher knapp und es kann zu Fehlermeldungen kommen.
+    * Die modifizierten Dateien in jedes einzelne Paket einkopieren
+* Alle Katalogdateien `KB4711.cat` aus den entpackten Paketen sammeln und nach `i386\svcpack` kopieren
+* Die Datei `i386\svcpack.inf` erstellen: (ggf. `svcpack.in_` löschen!)
+  ```
+  [Version]
+  Signature="$Windows NT$"
+  MajorVersion=5
+  MinorVersion=0
+  BuildNumber=2195
+  [SetupData]
+  CatalogSubDir="\i386\svcpack"
+  [ProductCatalogsToInstall]
+  KB4711.cat
+  ...
+  [SetupHotfixesToRun]
+  kb4711\update\update.exe /q /n /z
+  ...
+  ```
+* Wenn die für das Abbild zu nutzende Version von `mkisofs` keine eigene Dateideduplizierung unterstützt,
+  die Dateien vorher behandeln. Unter unixoiden Systemen beispielsweise mit `rdfind -makeresultsfile false -makehardlinks true pfad/zum/i386`
+* Den Bootsektor aus der originalen CD klauen mit `geteltorito pfad/zu/win2k.iso > boot.img`
+* Das neue Abbild erstellen: `mkisofs -o win2k.iso -iso-level 3 -J -N -b boot.img -no-emul-boot -hide 'boot.*' -hide-joliet 'boot.*' pfad/zu/dateien`
+    * `-J` Joliet-Dateisystem erstellen (lange Dateinamen für Windows)
+    * `-N` Versionsnummern-Suffix von Dateien auslassen. Wichtig, sonst findet er `NTLDR` nicht!
