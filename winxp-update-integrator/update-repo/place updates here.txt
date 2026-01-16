@@ -1,0 +1,1 @@
+Place update EXE files here which are supposed to be slipstreamed. Also list all of the kb numbers in kblist.txt.

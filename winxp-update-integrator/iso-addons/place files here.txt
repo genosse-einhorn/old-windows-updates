@@ -1,0 +1,1 @@
+Place here all files which you want to merge onto the final CD image

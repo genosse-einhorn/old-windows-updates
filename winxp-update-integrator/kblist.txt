@@ -1,0 +1,7 @@
+List updates to slipstream here, or run mkkblist.sh to create this list
+example:
+
+kb4711
+kb14810294
+kb81412
+
