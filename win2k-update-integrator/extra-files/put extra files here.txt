@@ -1,0 +1,3 @@
+put extra files which you want to integrate like files from a hotfix
+
+e. g. explorer.exe with 256 color tray icon patch

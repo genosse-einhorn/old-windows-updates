@@ -1,0 +1,7 @@
+put the newest versions of these files here and patch them to remove the swaprun flags or setup might run out of virtual memory
+
+spmsg.dll
+spuninst.exe
+update\spcustom.dll
+update\update.exe
+update\updspapi.dll
