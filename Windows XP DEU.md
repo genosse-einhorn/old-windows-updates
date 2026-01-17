@@ -337,8 +337,8 @@ Diese Updates werden nicht über Windows Update angeboten, man findet sie nur in
 
 ### .NET Framework 4.0
 
-| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
-|-----|-------------|-------|-----------|-----------|
+| Dateiname   | Größe | SHA1-Sum  | Kommentar |
+|-------------|-------|-----------|-----------|
 | dotNetFx40_Full_x86.exe | 36M | 212d693507e4d4ceb927ca275ced4cc687a25492 | |
 | dotNetFx40LP_Full_x86de.exe | 6,6M | c3a5c62304dcd1f2eeb3acebe2daa70d6398a42d | |
 | ndp40-kb2468871-v2-x86.exe | 19M | 8cb1f5eb7eda5329e69629dff3fd3757bf980717 | |
