@@ -9,180 +9,179 @@ irgendwo bei Microsoft heruntergeladen werden.
 
 ### Service Pack 3
 
-| KB        | Dateiname                          | Größe      | SHA1-Sum                                 |
-|-----------|------------------------------------|------------|------------------------------------------|
-| KB936929  | WindowsXP-KB936929-SP3-x86-DEU.exe | 314MiB     | f2dcd2211384a78df215c696a7fd1a7949dc794b |
+| KB        | Dateiname                          | Größe      | SHA256                                                           |
+|-----------|------------------------------------|------------|------------------------------------------------------------------|
+| KB936929  | WindowsXP-KB936929-SP3-x86-DEU.exe | 314MiB     | 10e158040c04c5dd90aedb624ae144c8eff9c6badc5dcfd001e6a61d4e36ca91 |
 
 ### "Wichtige Updates" aus Windows Update
 
 Diese Updates will Windows Update einem frisch installierten Windows XP SP3 andrehen.
 Updates für den Media Player und Internet Explorer 8 fehlen in dieser Tabelle, sie sind unten aufgelistet.
 
-| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
+| KB  | Dateiname   | Größe | SHA256    | Kommentar |
 |-----|-------------|-------|-----------|-----------|
-| KB905474 | windowsxp-kb905474-deu-x86.exe | 1,6M | d8f2f091d0bdae1d40ed990e80e367d559a98049 | WGA-Benachrichtigungen. Nicht verpflichtend für Windows Update. Nicht im Update-Katalog, nur über Windows Update. Installation bringt dem Benutzer nichts außer Ärger, falls das Tool meint, eine Raubkopie entdeckt zu haben. |
-| KB923561 | windowsxp-kb923561-x86-deu.exe | 1,3M | 3f1dee678b66f2ecf08570ae198696601f0a9c98 | |
-| KB923789 | windowsxp-kb923789-x86-deu.exe | 548K | c709ba424cac8324c214d2c403862bb7357b1d37.exe | Flash-Player-Update |
-| KB946648 | windowsxp-kb946648-x86-deu.exe | 524K | 2415eede56fe688aae38f149eb8b0cb8ab9fe6da | |
-| KB950762 | windowsxp-kb950762-x86-deu.exe | 556K | 97bf711d852b723bbde49390295c42170e50b087 | |
-| KB950974 | windowsxp-kb950974-x86-deu.exe | 592K | afb216e90fdbc32bd7df4ad41ce7ea09f89ceb5a | |
-| KB951376 | windowsxp-kb951376-v2-x86-deu.exe | 600K | b15635c29bcf1214e5c4388923a9c924ac1c55d4 | |
-| KB951978 | windowsxp-kb951978-x86-deu.exe | 1,1M | a4881b5352c37c557630d8b8db9cb8b246704601 | |
-| KB952004 | windowsxp-kb952004-x86-deu.exe | 1012K | ad282f76179619c2f125922683fc397762cbb59a | |
-| KB952287 | windowsxp-kb952287-x86-deu.exe | 652K | 5e44d3ec9b6500ca6bfc3fa4f6dd0dd946aa7235 | |
-| KB952954 | windowsxp-kb952954-x86-deu.exe | 528K | 950750b938475f80ff21c18632d7a418e8dc0e02 | |
+| KB923561 | windowsxp-kb923561-x86-deu.exe | 1,3M | f307dba3d46741b0b6fe86bab5f89da0663138d4e5a658fed2060cc7879cead6 | |
+| KB923789 | windowsxp-kb923789-x86-deu.exe | 548K | 4b07d557a600ddadfd30e44bb268a6e09c799ef4d3607434f370f570265e66d3.exe | Flash-Player-Update |
+| KB946648 | windowsxp-kb946648-x86-deu.exe | 524K | 63042d85b3b58f86ac5ba6b100d68d650267bddd32c5b3991fc86e5d2c9ed0a1 | |
+| KB950762 | windowsxp-kb950762-x86-deu.exe | 556K | fea19656211286906834e9093707a36dc20a1187a9968503708bdd110467e727 | |
+| KB950974 | windowsxp-kb950974-x86-deu.exe | 592K | bcfd129194096a8264db13094ffe749aad7d102279e049662fd7599791b7cde6 | |
+| KB951376 | windowsxp-kb951376-v2-x86-deu.exe | 600K | 207a3a2217b319c64673a50964384fdd1dceae196b9b81eb08a4c2f67be6be0e | |
+| KB951978 | windowsxp-kb951978-x86-deu.exe | 1,1M | 542fe10384a19813ee665beca8d9d9951d9adc6cc8bb59684f3ad5a7b90814ea | |
+| KB952004 | windowsxp-kb952004-x86-deu.exe | 1012K | 7237afaa02ba3a1ccef6d683f50f00d3035a8fe54f048ca91c7f80e51501ed3e | |
+| KB952287 | windowsxp-kb952287-x86-deu.exe | 652K | 4d511832c6eed8480c36be522ada50154ad41672e0b5b368a302e14634a63736 | |
+| KB952954 | windowsxp-kb952954-x86-deu.exe | 528K | 99cc822f6aabbe6d0af26cb9276fffcfae745ab3a81620f2b22db7263acb2097 | |
 | KB953155 | windowsxp-kb953155-x86-deu.exe | 572K | f5545f2dad2ac35e412dae012c9ea72c1bcc91db97de54c8f1e05b911046c430 | |
-| KB956572 | windowsxp-kb956572-x86-deu.exe | 4,5M | 99122b3a29b7455624721aaca0c8c4241e78d2ab | |
-| KB956844 | windowsxp-kb956844-x86-deu.exe | 560K | 4f2537ad7b78febd66d5534bc230b96038ba3c36 | |
-| KB959426 | windowsxp-kb959426-x86-deu.exe | 840K | 76263d1e1f49d927517c49f2c570e5f3af84847c | |
-| KB960803 | windowsxp-kb960803-x86-deu.exe | 664K | 3ca32c0b863aed207a4907d058841ea0355e6859 | |
-| KB960859 | windowsxp-kb960859-x86-deu.exe | 556K | 739f567460b0fc38bb9578af93a6c43d31df6a47 | |
-| KB968389 | windowsxp-kb968389-x86-deu.exe | 1,4M | c5099895340d6c67cf867c11e1c951fb40298a7b | |
-| KB969059 | windowsxp-kb969059-x86-deu.exe | 1,1M | 44baf6c9d9390647b73f6f147f3db92539612826 | |
-| KB970430 | windowsxp-kb970430-x86-deu.exe | 660K | b8ce3c948a2af96849f12cd925932a9878e32c4a | |
-| KB971029 | windowsxp-kb971029-x86-deu.exe | 3,2M | 751a12c16dac9774fe378fd0a78929bfdc5ce6ef | |
-| KB971657 | windowsxp-kb971657-x86-deu.exe | 556K | 3afe87d70dac8a6352b392d92b863053b3c3badc | |
-| KB972270 | windowsxp-kb972270-x86-deu.exe | 564K | 3215b9c387f599d73d209ac22b7ab68423566016 | |
-| KB973507 | windowsxp-kb973507-x86-deu.exe | 520K | b6cf429401128937303082f3d44bde64310a570b | |
-| KB973815 | windowsxp-kb973815-x86-deu.exe | 564K | 1869f3c2d3bf48239589171ed9f48e42167851a3 | |
-| KB973869 | windowsxp-kb973869-x86-deu.exe | 544K | c7a9d1b53f1631078b3c162af045b7dd94dddd44 | |
-| KB973904 | windowsxp-kb973904-x86-deu.exe | 848K | 777e2b1954656bff6005cbacef2d8755d1f27530 | |
-| KB974112 | windowsxp-kb974112-x86-deu.exe | 600K | 9e899c0fbfe06daae43b9df2fa4adc210540cbbe | |
-| KB974318 | windowsxp-kb974318-x86-deu.exe | 604K | fe1fa5176c77394b20e6bc4396b35e2825623074 | |
-| KB974392 | windowsxp-kb974392-x86-deu.exe | 592K | cf110bf3e66aca3752ab0661cf1de1e057e6e2d5 | |
-| KB974571 | windowsxp-kb974571-x86-deu.exe | 520K | 9601a32f9ebcd7acf50463bde877ddbcd6f3074f | |
-| KB975025 | windowsxp-kb975025-x86-deu.exe | 652K | 5ac01419cb805a842f8ca75d4652d6bd45083325 | |
+| KB956572 | windowsxp-kb956572-x86-deu.exe | 4,5M | b9458bcdd0e8e0794154ab596b4eee78ed4912f3baf786705f327be696f6f255 | |
+| KB956844 | windowsxp-kb956844-x86-deu.exe | 560K | 02dc10367a7a8813ee384eb49a069f126a9f4f665449a07a23f8d6c39464cacd | |
+| KB959426 | windowsxp-kb959426-x86-deu.exe | 840K | c5bab4082bdd8e45a8b17a0623128bb826118bc9804f1b870bd9f045d949288d | |
+| KB960803 | windowsxp-kb960803-x86-deu.exe | 664K | aaec844b1d7bda7831d52c1e7e0c01cb6eb60c8ddbd008c2337e7aeed86c52a3 | |
+| KB960859 | windowsxp-kb960859-x86-deu.exe | 556K | cfd3b2c914a7ce043b90a0c27536102a695ab32c8c4c1c90f53aa24147ba9673 | |
+| KB968389 | windowsxp-kb968389-x86-deu.exe | 1,4M | afd05d1dbc93ff47076b60bd8d22a040f436d4c4a3358e72fe0c8e7b01e1fb40 | |
+| KB969059 | windowsxp-kb969059-x86-deu.exe | 1,1M | 9486955431415e058c7009e1e8b78dbd782a1b30bad4f26583eb49f90a62cbda | |
+| KB970430 | windowsxp-kb970430-x86-deu.exe | 660K | 44a109c604d4fbb176f6adb6fcf9495262ad0c9b2bfca5c98be842bfb0084a73 | |
+| KB971029 | windowsxp-kb971029-x86-deu.exe | 3,2M | 8e64d7c9001c43cd0370b9a3ca59ab096545ea67482bcd32a45021ddff1bed03 | |
+| KB971657 | windowsxp-kb971657-x86-deu.exe | 556K | cd2263f815a1ca74d44d6ae4a7668e977192b52a184579222f15ce91ac9a4fe0 | |
+| KB972270 | windowsxp-kb972270-x86-deu.exe | 564K | 2b4f7f2a7412f72ba36c30c8f3c6e86548c730447f148d9307bab3a84fa9bdfb | |
+| KB973507 | windowsxp-kb973507-x86-deu.exe | 520K | c508508aa273baf8f23a6c103c5daa3189e1aa4b21cfc6cccd0b53ef388caf49 | |
+| KB973815 | windowsxp-kb973815-x86-deu.exe | 564K | f8be673b5c4fb584b14282395de82db087c93a5e56f1680f558540f2ef6eee39 | |
+| KB973869 | windowsxp-kb973869-x86-deu.exe | 544K | 732cfd8bc1b60b27dd0b4ad888aa43457f849bcceef6f7b7e63e3ccf714daefe | |
+| KB973904 | windowsxp-kb973904-x86-deu.exe | 848K | 69f4e69c8edb7b32ab96d06f31591d051164cbee76bfb26407ec5dd5eea20157 | |
+| KB974112 | windowsxp-kb974112-x86-deu.exe | 600K | 524c2994b8311bcdeeecc5c40e88d3297addc86bbdeb7d77c42f2d13aaffffc1 | |
+| KB974318 | windowsxp-kb974318-x86-deu.exe | 604K | 707dacbe0a3c9205503119b291759f48eeec5ba2bae42c3ff13d9ca6a2b153aa | |
+| KB974392 | windowsxp-kb974392-x86-deu.exe | 592K | 4ff096df0f062c3b73cf8867972ac9dab0eccf2b347fde0f34f7c7872a79a224 | |
+| KB974571 | windowsxp-kb974571-x86-deu.exe | 520K | ee3f02b0626650c22f8755fdf35618762be5fdae529f7813201551b4df004e57 | |
+| KB975025 | windowsxp-kb975025-x86-deu.exe | 652K | 09549e036a84cc5870265db44b33bc9a032175c98fd8a43266cba9c32719369f | |
 | KB975254 | windowsxp-kb975254-x86-deu.exe | 540K | f824b8ec6f3c64297ceb67d71bec1fbe22f98796781a56feb597c0e93830a6fe | |
-| KB975467 | windowsxp-kb975467-x86-deu.exe | 740K | 547a3c495e277458431e5b69295a4ea05e04e51d | |
-| KB975560 | windowsxp-kb975560-x86-deu.exe | 1,1M | a387d1718237fac06f8e07a7db8cf97190680142 | |
-| KB975713 | windowsxp-kb975713-x86-deu.exe | 692K | a4233e6225ab2fa84605de14d8d24c8cc1cff3f5 | |
+| KB975467 | windowsxp-kb975467-x86-deu.exe | 740K | e6d1bf46e597a97fc2ad8093add86e3415c0f5a5ce3407159575c080122a60d3 | |
+| KB975560 | windowsxp-kb975560-x86-deu.exe | 1,1M | a029844da963c70522a0d189b943b157c90321a3724844fc65f43fbb472cc96d | |
+| KB975713 | windowsxp-kb975713-x86-deu.exe | 692K | a8c4bb5230f8cac5e48474cd38ef3699922957e75be6da7e770eebe65cc36c8f | |
 | KB976323 | windowsxp-kb976323-x86-deu.exe | 656K | 58444186e0e700488ef905591bdafe4b8d40201d37d85a0dcac85a17dce219c5 | |
-| KB977816 | windowsxp-kb977816-x86-deu.exe | 672K | 0b72bcdaceca4a8132a6121e1623e1e811562ee0 | |
-| KB977914 | windowsxp-kb977914-x86-deu.exe | 568K | 5718766a6e2637f2223b78b4239ce85eca28df7f | |
-| KB978338 | windowsxp-kb978338-x86-deu.exe | 632K | 134f94e894466a0b66f3d5d2f755665cc6d7ee1c | |
-| KB978542 | windowsxp-kb978542-x86-deu.exe | 1,3M | 5c4175999da446364a8d823d8a442d41f83355d4 | |
-| KB978706 | windowsxp-kb978706-x86-deu.exe | 628K | b23b1963e63c8acba8a4c644d18019341ce384d2 | |
-| KB979309 | windowsxp-kb979309-x86-deu.exe | 528K | 3e1a2e3af2ab2b5c1525aa602dd3ab1905472f6d | |
-| KB979482 | windowsxp-kb979482-x86-deu.exe | 528K | 479364d026a7ba444ae176b084a9b7a200c61e88 | |
-| KB979687 | windowsxp-kb979687-x86-deu.exe | 1,1M | 56cf26f775d48283d3a478e3de9c77f7606ae394 | |
-| KB981997 | windowsxp-kb981997-x86-deu.exe | 1,7M | eda4bb238e0c1f715f1577539b5b74c1fb741bb5 | |
-| KB982132 | windowsxp-kb982132-x86-deu.exe | 548K | 36f5651b05b27350d86ab2fda4c3f0c7c7446772 | |
-| KB982665 | windowsxp-kb982665-x86-deu.exe | 524K | 4ffbcdd33ec002182869e84ff41ad6ab32925b65 | |
-| KB2115168 | windowsxp-kb2115168-x86-deu.exe | 548K | 5c7103c23635aa7739ad3604ece9c40e39529bb7 | |
+| KB977816 | windowsxp-kb977816-x86-deu.exe | 672K | c25d2c858028625df0753a1af92e91ef10319deb6f5cca2c7898edfcc8739bb1 | |
+| KB977914 | windowsxp-kb977914-x86-deu.exe | 568K | bd28516a493a4224ce4d5f1d25be6c50ce80c2116262a9b1f77cbd7a20bb8b0b | |
+| KB978338 | windowsxp-kb978338-x86-deu.exe | 632K | f024f2b28c619ed7bb9164d1169edbe6f06d0e592595f1ed873e6ead53d7af52 | |
+| KB978542 | windowsxp-kb978542-x86-deu.exe | 1,3M | 5547ff280060931d0215c808610a807f7b5b139597cc93a9a1ccbeb879a9ffed | |
+| KB978706 | windowsxp-kb978706-x86-deu.exe | 628K | 6bc75ccb25efcfd98db9f22283e4159358d806125d26fcfd57fe02ae2efa9452 | |
+| KB979309 | windowsxp-kb979309-x86-deu.exe | 528K | 331d76472313ea71443893fdad1fa394863b82a63894d69d396714711d48108b | |
+| KB979482 | windowsxp-kb979482-x86-deu.exe | 528K | 7b4162c564414f8cf2ba17e43923ad640d23050795fab31acce3372aa6a94fce | |
+| KB979687 | windowsxp-kb979687-x86-deu.exe | 1,1M | d29afc5cac5abe1b21af009ee2e08f6667db31e18f66273ee3d688dfd95a81fa | |
+| KB981997 | windowsxp-kb981997-x86-deu.exe | 1,7M | b2010df724c2395da8a54c4fe3cef36a7de6b1d8d5f328aa0cae928943149e49 | |
+| KB982132 | windowsxp-kb982132-x86-deu.exe | 548K | c17e2960996fbbec2e71c5fcc2cb48e1e59c8db5761985a8bb28a9c657c4aeda | |
+| KB982665 | windowsxp-kb982665-x86-deu.exe | 524K | f021c510f9361130af1f47fb394ba488b7e80c90700c39b7d00ed9f4b0e6179c | |
+| KB2115168 | windowsxp-kb2115168-x86-deu.exe | 548K | 2d99ac830a1a2ab4289b06747e8fc98ed0ce19f30e1f1cfaeeda67cd4bfd506b | |
 | KB2124261 | windowsxp-kb2124261-x86-deu.exe | 636K | 55af730bddb430944f07f47703e01863c6b2c7f95551ee2763163e37af9e3389 | |
-| KB2229593 | windowsxp-kb2229593-x86-deu.exe | 736K | 656064c08387c51c6612c92477ebc4ed6e390396 | |
+| KB2229593 | windowsxp-kb2229593-x86-deu.exe | 736K | 0666caaa9e1f5471c47226432b92b68a7c57460c6868af24e041240ac199c284 | |
 | KB2290570 | windowsxp-kb2290570-x86-deu.exe | 596K | 8106170a3e95ceeeba139cf47e6ac8b4679fcea51f50d9c39d744d93d5ad251e | |
-| KB2296011 | windowsxp-kb2296011-x86-deu.exe | 1,1M | f3d62a877f30f18324908ba97f2a2302ea1e4981 | |
-| KB2345886 | windowsxp-kb2345886-x86-deu.exe | 700K | a5b3a537bd6297a9ebf159e350d9a6ade66a8517 | |
-| KB2347290 | windowsxp-kb2347290-x86-deu.exe | 512K | 4d4057af1813129c9822188a0d5c2d928ef2dcc2 | |
-| KB2387149 | windowsxp-kb2387149-x86-deu.exe | 1,4M | fb2b8366d355bb911a06607d6d65128e9d65472e | |
-| KB2393802 | windowsxp-kb2393802-x86-deu.exe | 2,5M | 4c75a0f0aa12ab09de03dd7c4e38bdb919dfb261 | |
-| KB2419632 | windowsxp-kb2419632-x86-deu.exe | 1,0M | fafc7b5cd1c46445357cedb084c9665b5ea04613 | |
-| KB2423089 | windowsxp-kb2423089-x86-deu.exe | 512K | 913718d290c409cfe20abe06ecbbea2cb0709680 | |
-| KB2443105 | windowsxp-kb2443105-x86-deu.exe | 520K | 272fa59814c106f9be133c7b11f9f5cdd38e4952 | |
-| KB2478960 | windowsxp-kb2478960-x86-deu.exe | 820K | 9631f562454698341d0cf2f58f52c5a52c37ba9f | |
-| KB2478971 | windowsxp-kb2478971-x86-deu.exe | 632K | 6e4e9a157b66402750f5abb808b5df703f94aa43 | |
-| KB2479943 | windowsxp-kb2479943-x86-deu.exe | 672K | 5c6bc52fe2a7f3b6adec195df49319dff4187413 | |
-| KB2481109 | windowsxp-kb2481109-x86-deu.exe | 1,6M | 2b876e8edef06a4c7a36f119bcbf7a6decfe180d | |
-| KB2483185 | windowsxp-kb2483185-x86-deu.exe | 3,1M | a4c9c996e40da68682223d35fa7c20e5da173a61 | |
-| KB2485663 | windowsxp-kb2485663-x86-deu.exe | 616K | d2624922cefad4ae97acaf5693a49e925932e63a | |
+| KB2296011 | windowsxp-kb2296011-x86-deu.exe | 1,1M | 9226ae4203ffc6a49c22da542b07ea98a10c4fac86aa395793a2eab5fc194c67 | |
+| KB2345886 | windowsxp-kb2345886-x86-deu.exe | 700K | aa1cf1a0d92ec0e27baaa6635c7ed5c05b609cc6848953fe2a2e772e3d86d194 | |
+| KB2347290 | windowsxp-kb2347290-x86-deu.exe | 512K | e8fd30ad3d68305ae04f7909cc61de0887848ec3807f75628a88bdaace97dcbb | |
+| KB2387149 | windowsxp-kb2387149-x86-deu.exe | 1,4M | 2ed22270e81cf1c347316d1e3ce617a481046b2c8e6a7aa96a825c4f56d20ec5 | |
+| KB2393802 | windowsxp-kb2393802-x86-deu.exe | 2,5M | c552f7afaf3ec7eeefeec455ea03bec45b9a7ac4e4a9e57c78256e23309f0739 | |
+| KB2419632 | windowsxp-kb2419632-x86-deu.exe | 1,0M | aefaf495cd705cd0dabe6b1c3ed144cd695acbea40ddc97390002705a633fa18 | |
+| KB2423089 | windowsxp-kb2423089-x86-deu.exe | 512K | ae437f47171892ddeac21b0540dabb695a6c62060e1c12c5330ef4fa6928f5fe | |
+| KB2443105 | windowsxp-kb2443105-x86-deu.exe | 520K | 98de3b82f5066ef467b90606a62a6ee87174b35008f12c1f17318549693d8119 | |
+| KB2478960 | windowsxp-kb2478960-x86-deu.exe | 820K | 3ea635fcecc3d612ec37e7ce1e99c74c7cefe269044753840f7880a5196cac87 | |
+| KB2478971 | windowsxp-kb2478971-x86-deu.exe | 632K | d2244a7af53e1f7a4156a520c59928a85caebee011bdf0192c587d49fdfee588 | |
+| KB2479943 | windowsxp-kb2479943-x86-deu.exe | 672K | d8bc4050918aff4837d600ad681ca55759357294d6a17bc74bfbd468a78f5852 | |
+| KB2481109 | windowsxp-kb2481109-x86-deu.exe | 1,6M | abfb8edf349f6fec82914bee86c3a5c4aac79707dc23014566dd46deaa8d1ba1 | |
+| KB2483185 | windowsxp-kb2483185-x86-deu.exe | 3,1M | 45ea3b4848b6d3059753ec983e30c6752a8122324676722104302b2e44d080dd | |
+| KB2485663 | windowsxp-kb2485663-x86-deu.exe | 616K | 47b79d85689e8db6d42f9875f6a710bed46822b25c617bbc54d8fa2864c293d2 | |
 | KB2491683 | windowsxp-kb2491683-x86-deu.exe | 564K | d9ef0e35147bf274fb2a6324279b8f5584a72cce8da820003f220c3b1eb82359 | |
-| KB2506212 | windowsxp-kb2506212-x86-deu.exe | 948K | da2b388c036e4f58c1f067b2ed74cb04dd55dd1b | |
-| KB2507938 | windowsxp-kb2507938-x86-deu.exe | 644K | f3b9036d4b2671cc2d29b8157841aa45d639c1e0 | |
-| KB2508429 | windowsxp-kb2508429-x86-deu.exe | 660K | e3c57486f0caf8e4bd387d2f7dbcd3ce0229d6ba | |
-| KB2509553 | windowsxp-kb2509553-x86-deu.exe | 1,2M | 072f198c63c516291d4e6e25ddd2bc2e1427a514 | |
-| KB2510581 | windowsxp-kb2510581-x86-deu.exe | 852K | f5a7751b3b3862a6d3161990009c4559623dbe36 | |
-| KB2535512 | windowsxp-kb2535512-x86-deu.exe | 544K | 7044d3217d7d39ba0c17f9f9f607e45190291cf3 | |
-| KB2536276 | windowsxp-kb2536276-v2-x86-deu.exe | 712K | 9ca23d04a59888583de60c916b72f1dfb1c9079b | |
-| KB2544893 | windowsxp-kb2544893-v2-x86-deu.exe | 792K | 69b5503b11129c3de7c7d7b6d0b158b1702f0674 | |
-| KB2564958 | windows-de-de-kb2564958.exe | 748K | 8ae021f34b5b17a6322fc51754bf82be541b8a75 | |
-| KB2566454 | windowsxp-kb2566454-x86-deu.exe | 500K | 02a718d10f5f4f93643ba7152bf126bf589d905c | |
-| KB2570947 | windowsxp-kb2570947-x86-deu.exe | 492K | e017ccd1cfb5be140cd77f84ab9cbbe13c5a8769 | |
-| KB2584146 | windowsxp-kb2584146-x86-deu.exe | 516K | 2fe976d6c593518d89ed0ff78b4d7bc4d8c988f5 | |
-| KB2585542 | windowsxp-kb2585542-x86-deu.exe | 728K | 891ed1275a11717ee27a92a0b7fecd3a2044eebf | |
-| KB2592799 | windowsxp-kb2592799-x86-deu.exe | 560K | 651e608ec6bca1519ae8199c55390bf13ad005a9 | |
-| KB2598479 | windowsxp-kb2598479-x86-deu.exe | 576K | 285fe1ba2caedc7fa6cae307bd3445c77a794b5b | |
-| KB2603381 | windowsxp-kb2603381-x86-deu.exe | 492K | f13229c95a912a90c6bff999788755373a8488f8 | |
-| KB2619339 | windowsxp-kb2619339-x86-deu.exe | 568K | 54a23a32127000d7cab89f2b3bd20cea70f64f2d | |
-| KB2620712 | windowsxp-kb2620712-x86-deu.exe | 508K | a6c807504e6c5ed758f73607b638ccf3423923a6 | |
-| KB2631813 | windowsxp-kb2631813-x86-deu.exe | 1,2M | 84124669ee4f9eb306ba38281d73402848034333 | |
-| KB2653956 | windowsxp-kb2653956-x86-deu.exe | 640K | 9b37ce09be3868832449ee523fe9a6d25ce0d892 | |
-| KB2655992 | windowsxp-kb2655992-x86-deu.exe | 576K | d890cdee5195beecdd58ec8bd39411d9506aa5ba | |
-| KB2659262 | windowsxp-kb2659262-x86-deu.exe | 1,3M | c14b5d8a99bbd688012f0e6ec9c52e6d31ad2f08 | |
-| KB2661637 | windowsxp-kb2661637-x86-deu.exe | 492K | b7f29e582363039f980920b632fd69e75a3d128d | |
-| KB2676562 | windowsxp-kb2676562-x86-deu.exe | 3,1M | 4515afac9b5a2f32d7e0ac4af1c34c819cb7bb3f | |
-| KB2686509 | windowsxp-kb2686509-x86-deu.exe | 496K | 41866a33f633d6ea16224b02ccc453b404e2c4b2 | |
-| KB2691442 | windowsxp-kb2691442-x86-deu.exe | 3,0M | 70cef96791363c05945cbfade0c7cbd584e5e9f5 | |
-| KB2698365 | windowsxp-kb2698365-x86-deu.exe | 908K | ba2932468abf61140209cd9b830ee82c0863876d | |
-| KB2705219 | windowsxp-kb2705219-v2-x86-deu.exe | 680K | 6fe7594a28b57fd5df634f56fc706bd0fd909263 | |
-| KB2712808 | windowsxp-kb2712808-x86-deu.exe | 652K | b346436913e51fc5b9d55f95b333736e584851d0 | |
-| KB2719985 | windowsxp-kb2719985-x86-deu.exe | 1,6M | 89cfb585d9bae95458688c7c60cb7883b2ce2d02 | |
-| KB2723135 | windowsxp-kb2723135-v2-x86-deu.exe | 568K | d845674dff261cf38eb33742d2627d6b0019c329 | |
-| KB2727528 | windowsxp-kb2727528-x86-deu.exe | 528K | 13014815790c88ff394f2c8222af2cf025d3cd3f | |
-| KB2749655 | windowsxp-kb2749655-x86-deu.exe | 580K | e4f567daef3c747bd05c6496551f2a44711f56ef | |
-| KB2757638 | windowsxp-kb2757638-x86-deu.exe | 1,3M | 5a373e3a5d691e1d9c107aba574faf1908bf37e8 | |
-| KB2770660 | windowsxp-kb2770660-x86-deu.exe | 664K | e9f0de1cb45d7787556c9a0bfa31554b5e7a1c14 | |
-| KB2780091 | windowsxp-kb2780091-x86-deu.exe | 1,1M | 1951b68e37cd197c514290a4aa8fb13a04b2f532 | |
-| KB2802968 | windowsxp-kb2802968-x86-deu.exe | 752K | cc2e26212a1cc31f445a2e1657b1fb134e188441 | |
-| KB2807986 | windowsxp-kb2807986-x86-deu.exe | 508K | 81cf84d194e497d17d121339fee7e40a649c57e8 | |
-| KB2813345 | windowsxp-kb2813345-x86-deu.exe | 1,4M | fff78723399a160f0ef5ea8464c330d353dee372 | |
-| KB2820917 | windowsxp-kb2820917-x86-deu.exe | 636K | 54a356db283484eeef1ebb2c4ae501ed9b02fdac | |
-| KB2834886 | windowsxp-kb2834886-x86-deu.exe | 1,3M | 2c6a50afab0699a695f9982f422a5600f14387ad | |
-| KB2847311 | windowsxp-kb2847311-x86-deu.exe | 652K | dfe4788da5858c2cc15d928f200277004432caee | |
-| KB2850869 | windowsxp-kb2850869-x86-deu.exe | 672K | 4a1aef1a234db8cabfaf453a3016ae71b5fa48e6 | |
-| KB2859537 | windowsxp-kb2859537-x86-deu.exe | 2,2M | 843af427d7f01d1be0534bd1acdb15e09edd6692 | |
-| KB2862152 | windowsxp-kb2862152-x86-deu.exe | 604K | ec84928c2543f65d5efb65fecf26c714aa85cf4f | |
-| KB2862330 | windowsxp-kb2862330-x86-deu.exe | 600K | 0392603ebd5b4a4d6b9d8316848d2a1ac02c9fa9 | |
-| KB2862335 | windowsxp-kb2862335-x86-deu.exe | 528K | 66f0e30bf64ec53f06cbb2ed50b3432c6ab883d8 | |
-| KB2864063 | windowsxp-kb2864063-x86-deu.exe | 640K | 9a32f7b0b8e9f9b4e39fbb3888efa0820833f190 | |
+| KB2506212 | windowsxp-kb2506212-x86-deu.exe | 948K | 90946f6ce8a43f70e7657abb10ed8f00b62c384dfe4e5e7212f76d369a04a6e6 | |
+| KB2507938 | windowsxp-kb2507938-x86-deu.exe | 644K | 507004685344234f78527d0c63849e544c7ec33495580d3e857f3ac929aba2fd | |
+| KB2508429 | windowsxp-kb2508429-x86-deu.exe | 660K | f710f4f9bde2fde43ce9b551a47a81570ee5e761f92dec2e7fb346ab51e29dbb | |
+| KB2509553 | windowsxp-kb2509553-x86-deu.exe | 1,2M | 75ea67cf50fb50ab13c649bec324d9a22373677be7fd704fa22d8c5d23c3c7d4 | |
+| KB2510581 | windowsxp-kb2510581-x86-deu.exe | 852K | f98c3d8cf0bc32499024a06f1c1cf9672c0406068a66cdffd834842a8644075a | |
+| KB2535512 | windowsxp-kb2535512-x86-deu.exe | 544K | 142b7a821fb4e5d77e848fb585de8f0173ef7a24870ca75c0b42723c62febb15 | |
+| KB2536276 | windowsxp-kb2536276-v2-x86-deu.exe | 712K | a55e577952dc75aaff8a799d9676787b83574032ab4ce83887ac75e5b202679f | |
+| KB2544893 | windowsxp-kb2544893-v2-x86-deu.exe | 792K | 95f616f05a271c71fad0c5e6f17f88c4cda2ffc01183d7deadd96d4c92c98da8 | |
+| KB2564958 | windows-de-de-kb2564958.exe | 748K | eb9ce84ed3df903e3b429f6a97adfcbdc5f02b3282b3007b7e34c17fd225c544 | |
+| KB2566454 | windowsxp-kb2566454-x86-deu.exe | 500K | 575fafc44120a2574dbcd38dac5dc2745775b695de23fc4bb7723bc964247558 | |
+| KB2570947 | windowsxp-kb2570947-x86-deu.exe | 492K | 7a904a335b56e92edd93b4b9916a0f51ca88e794805a19556448c3dd62a0e400 | |
+| KB2584146 | windowsxp-kb2584146-x86-deu.exe | 516K | f120b8897fe3679658041d5bd8f6a927961d511c71558d236a2f19d5422fa56b | |
+| KB2585542 | windowsxp-kb2585542-x86-deu.exe | 728K | 061cecf8ef4a2cc5a4c01d9ca662a2d0e18c80b10a70f668fa8996d604ce340f | |
+| KB2592799 | windowsxp-kb2592799-x86-deu.exe | 560K | af4cd3b8b632bfe4ad336f8d48ea38bd26755efe45f61550cd5063beaafc5b4e | |
+| KB2598479 | windowsxp-kb2598479-x86-deu.exe | 576K | 040664663b999671669ebfee85f53212de21741dfcbb479508df1f2322c809ab | |
+| KB2603381 | windowsxp-kb2603381-x86-deu.exe | 492K | 4c04a0145e86ca1395f165d4ce9902738fd22402a3f3f680459b5833b8b72318 | |
+| KB2619339 | windowsxp-kb2619339-x86-deu.exe | 568K | fd6d9744d0c3c71041ea4182196ba11b808fdac414125312fc51b5d11639879b | |
+| KB2620712 | windowsxp-kb2620712-x86-deu.exe | 508K | 3dfee055ef8059bee5f8c80bd820d018a001c6a430e78d2a9a28adcfb5f1c566 | |
+| KB2631813 | windowsxp-kb2631813-x86-deu.exe | 1,2M | cbba31a0fba556b764aea73478937b3df515070aa6c640d8b19cab4c8a732642 | |
+| KB2653956 | windowsxp-kb2653956-x86-deu.exe | 640K | e620914d497aa7af633a98cc5b2eeee3514f6c3ac3f73c0878dc9fb54ce1dca3 | |
+| KB2655992 | windowsxp-kb2655992-x86-deu.exe | 576K | c46374c66274e4e09ee468f71b76e0502a09956a8ebbe4185f339f88127ead42 | |
+| KB2659262 | windowsxp-kb2659262-x86-deu.exe | 1,3M | 195942e6821e4a71b2f79f07ec346353944495aa1b4dfb78c975bb2023bb1244 | |
+| KB2661637 | windowsxp-kb2661637-x86-deu.exe | 492K | efbdce546b97f538444962173e4e268fb47b69c4adfcd1dcbc0b8d7874d0c4e5 | |
+| KB2676562 | windowsxp-kb2676562-x86-deu.exe | 3,1M | b164f61e097a346256e54422486ce9d929cb8b216591fae02eb45be3e9bccde9 | |
+| KB2686509 | windowsxp-kb2686509-x86-deu.exe | 496K | 4009ad68bd7fff10740a863313b5d35daf443d7fac1e390e1596a938b4491ff7 | |
+| KB2691442 | windowsxp-kb2691442-x86-deu.exe | 3,0M | b0acf42f1450e77ccbaa0350eeaf90cc5b06524e132351fd27b4b8482a372b18 | |
+| KB2698365 | windowsxp-kb2698365-x86-deu.exe | 908K | de6881c88bff6f9e4517b9f58db10dfcf576160cb0c98928a372dba8c8f2fe9b | |
+| KB2705219 | windowsxp-kb2705219-v2-x86-deu.exe | 680K | 6a0aaf20af4f37f999abf66cac650bfdcd3eac47b77189cdd56406b226432147 | |
+| KB2712808 | windowsxp-kb2712808-x86-deu.exe | 652K | b2717ee725454824e1ab2d3be8f655eeddedcaa27ff729fc23241f80a611b8cf | |
+| KB2719985 | windowsxp-kb2719985-x86-deu.exe | 1,6M | a291c84ae02b3a66b7772cf20ed011a370c31bcc2d81cb6c89b47942f10bf94e | |
+| KB2723135 | windowsxp-kb2723135-v2-x86-deu.exe | 568K | 401ca1b1d96ffd87934082d96345b67b6b2548cd331d4b84b3dcd93d82cf4b11 | |
+| KB2727528 | windowsxp-kb2727528-x86-deu.exe | 528K | 47934db3eccdca846b1ec1323fd0f5222ac1517083c2c8646f53897d2c7675db | |
+| KB2749655 | windowsxp-kb2749655-x86-deu.exe | 580K | 1581f608d18d225b7785cc4a8cade02374fe4bb94c5f3462a0e267062c35d771 | |
+| KB2757638 | windowsxp-kb2757638-x86-deu.exe | 1,3M | f10f2e143ed8efc17aac1da1dd75d75193cb2cbbde2a8b67e45da18adb076f33 | |
+| KB2770660 | windowsxp-kb2770660-x86-deu.exe | 664K | 8ac4fed022e8b7048f9e952943be5424afed0ea6c71b2288d3e8061ec61bfdf2 | |
+| KB2780091 | windowsxp-kb2780091-x86-deu.exe | 1,1M | 32814ea62821ed38bd7bd43929472c332d1851435e5be01c018f4034b652efa4 | |
+| KB2802968 | windowsxp-kb2802968-x86-deu.exe | 752K | 81d1ed6d83e0c88eb22576db6ece9e6ae9c22c42cf4b15a0fe5d027ddd88abad | |
+| KB2807986 | windowsxp-kb2807986-x86-deu.exe | 508K | 9aa925ca7c12f5bea13494a0d72d49b187e8bb0167709085ae807670c8b63546 | |
+| KB2813345 | windowsxp-kb2813345-x86-deu.exe | 1,4M | e48566dbcad2d5b521e30743505d23c018ca74ddc68f381c9ce0af95df237e93 | |
+| KB2820917 | windowsxp-kb2820917-x86-deu.exe | 636K | 8d24cd1d1c828e02e5edfd9690ab57649d16e02d92faf5fd3e379773db4ae268 | |
+| KB2834886 | windowsxp-kb2834886-x86-deu.exe | 1,3M | ff143987df783138b01c96ce56b838c6bc01ae2e8f86612f393c71db947c75c5 | |
+| KB2847311 | windowsxp-kb2847311-x86-deu.exe | 652K | 77ed1a93ac27c9729909db82a3944970e1c8ac03e905cfd57884e1d89eb3061b | |
+| KB2850869 | windowsxp-kb2850869-x86-deu.exe | 672K | b020c5a70304be078c9562099fed60ec16df80b87df8f48f9030f52072e90b01 | |
+| KB2859537 | windowsxp-kb2859537-x86-deu.exe | 2,2M | 05b1abe40326370dda9806ef4f3e2c0cd532bd90289962745f1b9c4dfc272b8a | |
+| KB2862152 | windowsxp-kb2862152-x86-deu.exe | 604K | e884909d9e9b884e364bd3eacc7c93436ff586398c43d0f7e0e457d140c737fb | |
+| KB2862330 | windowsxp-kb2862330-x86-deu.exe | 600K | 08de3675ce3e4a7f363c5abb787ce55f358276f2423f791f9e7d999913047d38 | |
+| KB2862335 | windowsxp-kb2862335-x86-deu.exe | 528K | ae71591aaff8e15c2429d749bf107fddc6eab46f94c69c6ebffc7d347d809c1e | |
+| KB2864063 | windowsxp-kb2864063-x86-deu.exe | 640K | 5365bea7bad34360b0ad742acdd4f687777e79363ad2154b7a72b8ea3dec9d9b | |
 | KB2868038 | windowsxp-kb2868038-x86-deu.exe | 616K | 78cc16aa374af8dda367a01e3420adef41fe24e9a5f08aa9d775c8dd414019d4 | |
-| KB2868626 | windowsxp-kb2868626-x86-deu.exe | 764K | 6574daf82ea780a306b560f9d7fb65ffccc42710 | |
-| KB2876217 | windowsxp-kb2876217-x86-deu.exe | 1,1M | 24f89878e747523ebf0027e3c149a8cc8d885fd5 | |
-| KB2876331 | windowsxp-kb2876331-x86-deu.exe | 640K | 3b9b168f17fb512761f2ec902695f8b44309da59 | |
-| KB2879017 | windowsxp-kb2879017-x86-deu.exe | 4,1M | 418781d26be65269b16c71a163537d6e41da7a13 | |
-| KB2892075 | windowsxp-kb2892075-x86-deu.exe | 572K | 698f477b8ad4b1954b0044d8fef169787d1b81a1 | |
-| KB2893294 | windowsxp-kb2893294-x86-deu.exe | 580K | e00580c5ae6e30bdaa55d05d7acd1fe935ca6cd8 | |
-| KB2898715 | windowsxp-kb2898715-x86-deu.exe | 800K | fd961b8df3d9c3a5d099be974ef2fccf4527b509 | |
-| KB2900986 | windowsxp-kb2900986-x86-deu.exe | 512K | 9429ffa1be5ad2b9d6008779065316de523967ad | |
-| KB2904266 | windowsxp-kb2904266-x86-deu.exe | 528K | 8b895dc10f22e3666058826b90a6b50c302ec920 | |
-| KB2909212 | windowsxp-kb2909212-x86-deu.exe | 692K | 4def74d65faf72edbe9aebb08e78d39c9afb5385 | |
-| KB2914368 | windowsxp-kb2914368-x86-deu.exe | 528K | 249e0a5cc0b07eb3afb1e94837e652a931442ff4 | |
-| KB2916036 | windowsxp-kb2916036-x86-deu.exe | 920K | 9f9ba12140602d97b79932a0917943129466e591 | |
-| KB2922229 | windowsxp-kb2922229-x86-deu.exe | 816K | f0711f46d90d9a766d72ec97c512900963d2e3cc | |
-| KB2929961 | windowsxp-kb2929961-x86-deu.exe | 732K | 0a2900b3bda9aa199c61a71c63ca08baa96257b3 | |
-| KB2930275 | windowsxp-kb2930275-x86-deu.exe | 1,4M | 69ab05af480a85766f433ee8a2163f675e8809cb | |
-| KB2934207 | windowsxp-kb2934207-x86-deu | 512K | 2d705eece346389acd0cd60a1ffdec31ade1ec30 | Benachrichtigung über das Ende des Supports von Windows XP. Nicht im Update-Katalog, nur über Windows Update. Installation bringt nichts außer ein nerviges Hinweisfenster beim nächsten Start. |
+| KB2868626 | windowsxp-kb2868626-x86-deu.exe | 764K | 922b079f10c7cc73e9efd3e9e87798c3e23ea3d5d2a47133d1a3178fceba9cf2 | |
+| KB2876217 | windowsxp-kb2876217-x86-deu.exe | 1,1M | a932313cf749142aad76130e5280009163a276a4adf54f8ed5cfece2509946a4 | |
+| KB2876331 | windowsxp-kb2876331-x86-deu.exe | 640K | ff39af04dd6f5826435b4f8a5bb7e0d85b94fd701f3f942844faebd072f0e26d | |
+| KB2879017 | windowsxp-kb2879017-x86-deu.exe | 4,1M | 47987d9f577ffb988046fab42e64afcf30be90acc06bbc4d5efa1d586e28766b | |
+| KB2892075 | windowsxp-kb2892075-x86-deu.exe | 572K | 1fd5cfdfdf4af9e2a52a271cbcc1d8b1aec22cefbcfcbf2fd7f4a5efce5df6cf | |
+| KB2893294 | windowsxp-kb2893294-x86-deu.exe | 580K | 4e12aa5bfc0e8fdecf0497bf9cfc8b5374ff0779f4c3f85a28670bd1d110dd26 | |
+| KB2898715 | windowsxp-kb2898715-x86-deu.exe | 800K | 595585dc86a1657d5fff888951c639fc2d376f5384239a9dfe2641377c964804 | |
+| KB2900986 | windowsxp-kb2900986-x86-deu.exe | 512K | 0402d509d5cca25bd4d5a09d731163f56bacefb403e1e797d206cb44604d60bc | |
+| KB2904266 | windowsxp-kb2904266-x86-deu.exe | 528K | 097e6e3dcda05b03dba32e4bcefa3557a4618871ee7d78fe396bf7cf2a0c6aac | |
+| KB2909212 | windowsxp-kb2909212-x86-deu.exe | 692K | 160b95bdbf7aa0f92ece786a70cd963941d512165668cbabb58477d90af1ba6e | |
+| KB2914368 | windowsxp-kb2914368-x86-deu.exe | 528K | 6b8b137f5402f6a4a8b3023b0f15f4a1907824b1a92ca21a8f0a659da732f128 | |
+| KB2916036 | windowsxp-kb2916036-x86-deu.exe | 920K | ff9a4657daabdea3d09f1d779d8babed64b456f1b190f8d15c68ab7c0611319f | |
+| KB2922229 | windowsxp-kb2922229-x86-deu.exe | 816K | b86f7ad208a63f2abc477c00e9f18eba1ed908fb7bf62fe93d39213f74957b5b | |
+| KB2929961 | windowsxp-kb2929961-x86-deu.exe | 732K | c4c35800e8b2a87deb6c89cbaee4786db0254dd8976626f320b8cbbc5d5e897f | |
+| KB2930275 | windowsxp-kb2930275-x86-deu.exe | 1,4M | 2c0e66535776e6104527f8017942874b7cdc0d4ea420cc51ce19e56507d123b8 | |
+
 
 ### Später veröffentlichte Sicherheitsupdates
 
 Diese Sicherheitsupdates wurden nach Ablauf des offiziellen Supports freigegeben und werden von Windows Update unterschlagen.
 
-| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
-|-----|-------------|-------|-----------|-----------|
-| KB4012598 | windowsxp-kb4012598-x86-custom-deu.exe | 676K | c1e81e14c283f2adbbdce9c1de348b4295b6a45c | WannaCry-Patch |
-| KB3197835 | windowsxp-kb3197835-x86-custom-deu.exe | 616K | ed4f455544a71ffb7e7182c6efa2ce6cba5a61a8 | |
-| KB4025218 | windowsxp-kb4025218-x86-custom-deu.exe | 528K | eb341df9ab81e988de08e23a91ab592138ab4d4e | |
-| KB4024402 | windowsxp-kb4024402-x86-custom-deu.exe | 1,1M | 9b7740e8d7aae05ee4943ecd999b1d6848aa754a | |
-| KB4024323 | windowsxp-kb4024323-x86-custom-deu.exe | 856K | 91c734eb98b63e71bbe33bd189eb23558bd5c4a4 | |
-| KB4022747 | windowsxp-kb4022747-x86-custom-deu.exe | 552K | 1f5afa7ee3541e8bd49019c25d224aa0ef34b306 | |
-| KB4019204 | windowsxp-kb4019204-x86-custom-deu.exe | 1,5M | ea5eb4cf4233e818a11a9825174d04871ce3d15e | |
-| KB4018466 | windowsxp-kb4018466-x86-custom-deu.exe | 676K | bcb22c338e186d38b8d1510f1630742707fcd9a2 | |
-| KB4012583 | windowsxp-kb4012583-x86-custom-deu.exe | 1,5M | edb18f0de1c061f2085970fd03fff15ed296a999 | |
-| KB4500331 | windowsxp-kb4500331-x86-custom-deu.exe | 527K | f6b19dd13775e252ee6ca329d911010b90edabbd | RCE in Remote Desktop Services |
+| KB  | Dateiname   | Größe | SHA256  | Kommentar |
+|-----|-------------|-------|---------|-----------|
+| KB4012598 | windowsxp-kb4012598-x86-custom-deu.exe | 676K | eac65af0a2909d3026843deefe96003bcf2c9aad48f0ba636bd920171d1330b5 | WannaCry-Patch |
+| KB3197835 | windowsxp-kb3197835-x86-custom-deu.exe | 616K | f64c4f5e35eeeb8e3d12ae7f2c3be4e1f029301921a18c670e0be77cb4366b1d | |
+| KB4025218 | windowsxp-kb4025218-x86-custom-deu.exe | 528K | da930bb11cfbd9c18dd547596eb1e5ee0c410282f92164740441c79b05eee00f | |
+| KB4024402 | windowsxp-kb4024402-x86-custom-deu.exe | 1,1M | 32c9bbbc2dcc695f6b5e41a712bc8fbecb8af084067f9fac17d28dc8b4b38782 | |
+| KB4024323 | windowsxp-kb4024323-x86-custom-deu.exe | 856K | fdcf0ce8edd0a040d253582ca488ab130f8d375f2ebb3f036f51b0d3152e6a00 | |
+| KB4022747 | windowsxp-kb4022747-x86-custom-deu.exe | 552K | 80ce806e0062050552666580c6d8328bc44c620bcc2df3485d4d0ea165d68b00 | |
+| KB4019204 | windowsxp-kb4019204-x86-custom-deu.exe | 1,5M | a01f83ffc6b99708cbef1e8b7e47fd63452b0da8afa0c3bc8893f8ea7c047555 | |
+| KB4018466 | windowsxp-kb4018466-x86-custom-deu.exe | 676K | f510b2e6c872779e8533bf5e25c52f2bb074a983ef6f7e5d6b517f16bdb4afc3 | |
+| KB4012583 | windowsxp-kb4012583-x86-custom-deu.exe | 1,5M | 8a35bb1bbab8d796a75c9a4b2153257b07f4e0ba0f51d8f9193aa908516ff0a2 | |
+| KB4500331 | windowsxp-kb4500331-x86-custom-deu.exe | 527K | df40fad9f15c614617ea96d0bb363df09217ffa82a2d51d5c65e90861e475c66 | RCE in Remote Desktop Services |
 
 ### Updates für den integrierten Media Player 9
 
 Nicht installieren, falls sowieso der Media Player 10 oder 11 installiert werden soll. Nicht für die Media Center Edition.
 
-| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
-|-----|-------------|-------|-----------|-----------|
-| KB952069 | windowsxp-windowsmedia-kb952069-v2-x86-deu.exe | 7,4M | 87f9aeeaf57dbc86ff31eb9b856d18a42e308738 | |
-| KB954155 | windowsxp-windowsmedia-kb954155-x86-deu.exe | 1,1M | ae8c7d6d385108c7a3749ed30bd1c0b560dd13bb | |
-| KB973540 | windowsxp-windowsmedia-kb973540-x86-deu.exe | 9,6M | f2e2cb9b65fc6cc20a0b466b5a677f4341ed1b97 | |
-| KB975558 | windowsxp-windowsmedia-kb975558-x86-deu.exe | 828K | 547fccf8d5b076c60646f33a653e090a57d85295 | |
-| KB978695 | windowsxp-windowsmedia-kb978695-x86-deu.exe | 4,3M | 087108b470354b3d1f4bbf6d8983e38c1f1fb0bf | |
-| KB2378111 | windowsxp-windowsmedia-kb2378111-x86-deu.exe | 9,4M | 5ecc5bc343c6fafdd6a55f2145a29ce9068d4cf1 | |
-| KB2803821 | windowsxp-windowsmedia-kb2803821-v2-x86-deu.exe | 772K | e9311b2f0794b4df6d619df9b279830dbb1299bc | |
+| KB  | Dateiname   | Größe | SHA256  | Kommentar |
+|-----|-------------|-------|---------|-----------|
+| KB952069 | windowsxp-windowsmedia-kb952069-v2-x86-deu.exe | 7,4M | 0f52523bad44960098f1fa5b3b0c0032058d0fd86e3844fd6c8265f0433acd5d | |
+| KB954155 | windowsxp-windowsmedia-kb954155-x86-deu.exe | 1,1M | 58efb06aaddf4968be8109aeee0ab18b34ea70b06b3f49b927630c750264201f | |
+| KB973540 | windowsxp-windowsmedia-kb973540-x86-deu.exe | 9,6M | b56c6660e6d89de6ec19420b353c45b01464e9bcb60a2d5ee5cad25ad7bccc2a | |
+| KB975558 | windowsxp-windowsmedia-kb975558-x86-deu.exe | 828K | 7327980f6d6c45367068ac767be5025ae9ff9df5365ebabd25abedbcad26286c | |
+| KB978695 | windowsxp-windowsmedia-kb978695-x86-deu.exe | 4,3M | 34d6f4260dfa4a4908d95350baf2189d496d45a6aa91b2d8139101aba21f0a79 | |
+| KB2378111 | windowsxp-windowsmedia-kb2378111-x86-deu.exe | 9,4M | 20d737f6bb877f2fb348dbfd0116cbbe7250fa44ff204b8bd6bd42501ae19478 | |
+| KB2803821 | windowsxp-windowsmedia-kb2803821-v2-x86-deu.exe | 772K | 932fa4bbc42488f675b71035b862ab91279cbe8c58d7a4e41a26c3b61eaea35b | |
 
 ### Updates für die Media Center Edition 2005
 
@@ -228,6 +227,8 @@ Anschließend kann das Service Pack 3 installiert werden. Zusätzlich zum SP3 un
 
 ### Media Player 10
 
+| KB  | Dateiname   | Größe | SHA256  | Kommentar |
+|-----|-------------|-------|---------|-----------|
 | mp10setup.exe | mp10setup.exe | 13M | 224093266f849fc77b770b7262846f13964d7b5a2d1c5cde4f0f20c38dcc6c2b | |
 | KB902344 | WindowsMedia10-KB902344-x86-INTL.exe | 616K | 637ef2e55de34333496ba1c67700444c15e3b86c75afcff0c39ad7078bc9284a | |
 | KB941569 | windowsxp-kb941569-x86-deu.exe | 2,1M | 87e6507cbdbcc07e4d4eb0ea69988f17cb6fbab24f67712a0223d0aa41c8e3eb | |
@@ -242,57 +243,57 @@ Anschließend kann das Service Pack 3 installiert werden. Zusätzlich zum SP3 un
 ### Media Player 11
 
 Das Installationspaket, das man bei Microsoft herunterladen kann, führt eine Aktivierungsprüfung durch.
-Man kann das jedoch umgehen, indem man die Datei mit einem Archivprogramm öffnet und die Einzelkomponenten
-`wmp11.exe` und `wmfdist11.exe` entpackt und installiert. Danach sind diverse Sicherheitsupdates fällig.
+Man kann das jedoch umgehen, indem man die Datei mit einem Archivprogramm entpackt und die Einzelkomponenten
+`umdf.exe`, `wmfdist11.exe`, `wmp11.exe`, `wmdbexport.exe`, `windowsxp-mscomppackv1-x86.exe`, `wmappcompat.exe` sowie `mymusic.inf` und `skins.inf` (jeweils mit `advpack.dll`) installiert. Danach sind diverse Sicherheitsupdates fällig.
 
 | KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
 |-----|-------------|-------|-----------|-----------|
-|     | wmfdist11.exe | 9,4M | 0f751f75da36162f171ce256d0aa380b40f0a3b4 | Windows Media Format Runtime 11 |
-|     | wmp11.exe     | 13M  | 40ed4d64d5288a4146c28d53ba62e5efc5cf712d | Windows Media Player 11 |
-| KB929399 | windowsmedia11-kb929399-v2-x86-intl.exe | 628K | 50e2bc6b5e79909a0061043e6211600548368431 | |
-| KB939683 | windowsmedia11-kb939683-x86-deu.exe | 556K | e142439cf38fff3aa54a91c40f54f2606bf9c208 | |
-| KB941569 | windowsxp-kb941569-x86-deu.exe | 2,1M | e41b608297acf4070c229f8f62b639c3c3af5fea | |
-| KB954154 | windowsmedia11-kb954154-x86-deu.exe | 608K | 349589c31d3210e102f97936fb7d8e97030fde8e | |
-| KB952069 | windowsxp-windowsmedia-kb952069-v2-x86-deu.exe | 7,4M | 87f9aeeaf57dbc86ff31eb9b856d18a42e308738 | |
-| KB954155 | windowsxp-windowsmedia-kb954155-x86-deu.exe | 1,1M | ae8c7d6d385108c7a3749ed30bd1c0b560dd13bb | |
-| KB973540 | windowsxp-windowsmedia-kb973540-x86-deu.exe | 9,6M | f2e2cb9b65fc6cc20a0b466b5a677f4341ed1b97 | |
-| KB975558 | windowsxp-windowsmedia-kb975558-x86-deu.exe | 828K | 547fccf8d5b076c60646f33a653e090a57d85295 | |
-| KB978695 | windowsxp-windowsmedia-kb978695-x86-deu.exe | 4,3M | 087108b470354b3d1f4bbf6d8983e38c1f1fb0bf | |
-| KB2378111 | windowsxp-windowsmedia-kb2378111-x86-deu.exe | 9,4M | 5ecc5bc343c6fafdd6a55f2145a29ce9068d4cf1 | |
-| KB2834904 | windowsxp-windowsmedia-kb2834904-v2-x86-deu.exe | 976K | 15ce3ab9e814e274e28a30374a51b652ca2eb1a1 | |
+|  | wmp11-windowsxp-x86-de-de.exe | 25M | 5151891eae62b3c716dda7b71cd2768786a7b77193c0d850eb2d6b286bb82e72 | |
+| KB929399 | windowsmedia11-kb929399-v2-x86-intl.exe | 628K | 18622af6c22fd5b31098d6dc11f2e078bcd2a7b4ce43dbffc009770d8aa4b804 | |
+| KB939683 | windowsmedia11-kb939683-x86-deu.exe | 556K | 5d19dcba6824857c75fccace59baf43c308cd3faf2823f9345cf4083938addcf | |
+| KB941569 | windowsxp-kb941569-x86-deu.exe | 2.1M | 87e6507cbdbcc07e4d4eb0ea69988f17cb6fbab24f67712a0223d0aa41c8e3eb | |
+| KB952069 | windowsxp-windowsmedia-kb952069-v2-x86-deu.exe | 7.4M | 0f52523bad44960098f1fa5b3b0c0032058d0fd86e3844fd6c8265f0433acd5d | |
+| KB954154 | windowsmedia11-kb954154-x86-deu.exe | 608K | ebffabab6f43962ebb63b0876ad2fbd2d1df7e8c92e68c01e4bfea81afafc569 | |
+| KB954155 | windowsxp-windowsmedia-kb954155-x86-deu.exe | 1.1M | 58efb06aaddf4968be8109aeee0ab18b34ea70b06b3f49b927630c750264201f | |
+| KB973540 | windowsxp-windowsmedia-kb973540-x86-deu.exe | 9.6M | b56c6660e6d89de6ec19420b353c45b01464e9bcb60a2d5ee5cad25ad7bccc2a | |
+| KB975558 | windowsxp-windowsmedia-kb975558-x86-deu.exe | 828K | 7327980f6d6c45367068ac767be5025ae9ff9df5365ebabd25abedbcad26286c | |
+| KB978695 | windowsxp-windowsmedia-kb978695-x86-deu.exe | 4.3M | 34d6f4260dfa4a4908d95350baf2189d496d45a6aa91b2d8139101aba21f0a79 | |
+| KB2378111 | windowsxp-windowsmedia-kb2378111-x86-deu.exe | 9.4M | 20d737f6bb877f2fb348dbfd0116cbbe7250fa44ff204b8bd6bd42501ae19478 | |
+| KB2834904 | windowsxp-windowsmedia-kb2834904-v2-x86-deu.exe | 976K | 26452172de2046e144eb53739ad18b5896ab7f22aa45de14c1f5754f0afda4ff | |
+
 
 ### Optionale Updates aus Windows Update
 
 Diese Systemupdates werden als "optionale Updates" in Windows Update angeboten
 
-| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
-|-----|-------------|-------|-----------|-----------|
-| KB2808679 | windowsxp-kb2808679-x86-deu.exe | 792K | 8672086a45f0a40601e78a949fe2c0a3674c94e0 | Update, das vor dem Scannen interner URL-Ports schützt |
-| KB2492386 | windowsxp-kb2492386-x86-deu.exe | 1012K | bfaa8daf2765df2b5e4da1ff48cdf1f415872197 | Anwendungskompatibilitätsupdate, kann Problemen beim Installieren von .NET Framework 4.0 vorbeugen |
-| KB909520 | windows-kb909520-v1.000-x86-deu.exe | 632K | 973e7c23c74c87910f14695d558f612ea73afce8 | Microsoft Base Smartcard-Kryptografiedienstanbieter-Paket |
-| KB971513 | windows-de-de-kb971513.exe | 749K | e47749e7458c92e0db84293439ce2f85f778ab0c | Windows-Automatisierungs-API-Bibliothek. Wird bei irgendeinem Sicherheitsupdate automatisch mitinstalliert.
+| KB  | Dateiname   | Größe | SHA256  | Kommentar |
+|-----|-------------|-------|---------|-----------|
+| KB2808679 | windowsxp-kb2808679-x86-deu.exe | 792K | 11b9e65ab3717d78486625322e4d26ccaa83301d12118af6f86081e6fd93798a | Update, das vor dem Scannen interner URL-Ports schützt |
+| KB2492386 | windowsxp-kb2492386-x86-deu.exe | 1012K | c5c35ed060ae0232e62bfb2de0a4b8fbc58a926347a657d3716fc233c0433db3 | Anwendungskompatibilitätsupdate, kann Problemen beim Installieren von .NET Framework 4.0 vorbeugen |
+| KB909520 | windows-kb909520-v1.000-x86-deu.exe | 632K | 0ebd91ca89e05e99f3c67cc70585a9eb767b8b9832343f7ad55fbd9bf63c373b | Microsoft Base Smartcard-Kryptografiedienstanbieter-Paket |
+| KB971513 | windows-de-de-kb971513.exe | 749K | 3334b9c21da66028c8f3b06eb35bfeb7c75fb3c5563c549b080b93ab9405daf6 | Windows-Automatisierungs-API-Bibliothek. Wird bei irgendeinem Sicherheitsupdate automatisch mitinstalliert.
 
 ### Weitere optionale Updates
 
 Diese Updates werden nicht über Windows Update angeboten, man findet sie nur in WSUS oder sonst irgendwo im Netz.
 
-| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
-|-----|-------------|-------|-----------|-----------|
-| KB955704 | WindowsXP-KB955704-x86-DEU.exe | 3.4M | 45496f78d4e44119043e772903705f2705471d5e | exFAT |
-| KB932716 | WindowsXP-KB932716-v2-x86-DEU.exe | 764K | be3eb80f9ac46a9c57ce291398675463514d2b43 | IMAPIv2 |
-| KB2264107 | windowsxp-kb2264107-x86-deu.exe | 852K | 960035b47e8760428a55896c6aa84f92329d4095 | CWDIllegalInDllSearch-Patch |
-| KB969084 | windowsxp-kb969084-x86-deu.exe | 2.0M | ed7039095a5f388a200fe2dacd4ab2d2bba51eac | Windows 7 Remotedesktopclient |
-| KB2813347 | windowsxp-kb2813347-v2-x86-deu.exe | 2.2M | 611789f9f5dc70c73a5b7bf73b6e4bf069071544 | Sicherheitsupdate für Remotedesktopclient |
+| KB  | Dateiname   | Größe | SHA256  | Kommentar |
+|-----|-------------|-------|---------|-----------|
+| KB955704 | WindowsXP-KB955704-x86-DEU.exe | 3.4M | 826e32f64be527afaf8a86c9d20cbb83eacdb5053dfeb02b03260dedf13bbcb1 | exFAT |
+| KB932716 | WindowsXP-KB932716-v2-x86-DEU.exe | 764K | dbef9117bc3359f04e33362248532ce342402ec7206472a119843e21177c85f5 | IMAPIv2 |
+| KB2264107 | windowsxp-kb2264107-x86-deu.exe | 852K | 925ab9bd531c9ce0f4fccdb01a2c71724b6080b4e9f109a66e7201538b08314d | CWDIllegalInDllSearch-Patch |
+| KB969084 | windowsxp-kb969084-x86-deu.exe | 2.0M | a5faabc7d8f3e69d0f7e4300777b88bd2418a5056ee8af38f71fbfe8b32c0775 | Windows 7 Remotedesktopclient |
+| KB2813347 | windowsxp-kb2813347-v2-x86-deu.exe | 2.2M | a8dcb358533b7585e73c3c7ef5228f0e72b1d81b19f6c4c644a25223f095e1e0 | Sicherheitsupdate für Remotedesktopclient |
 
 ### Internet Explorer 8
 
-| KB  | Dateiname   | Größe | SHA1-Sum  | Kommentar |
-|-----|-------------|-------|-----------|-----------|
-|   | ie8-windowsxp-x86-deu.exe | 17M | 17c0319bd3af8004d7b0702e55a130b53ae26be7 | Internet Explorer 8 Installationspaket |
-| KB2510531 | ie8-windowsxp-kb2510531-x86-deu.exe | 960K | d10cd98099f115059086ee9317ec42103c6b4b05 | |
-| KB2598845 | ie8-windowsxp-kb2598845-x86-deu.exe | 496K | abbfddc2fa764ce5453da2b666b518a19755fbc9 | |
-| KB2632503 | ie8-windowsxp-kb2632503-x86-deu.exe | 792K | ced434b2dc224fc2f8bab211ff597cc61cc04885 | |
-| KB4018271 | ie8-windowsxp-kb4018271-x86-custom-deu.exe | 11M | f5ea5ab8acaed4158d5902c875ed4208fe34142c | Im Juni 2017 nach Supportende veröffentlicht |
+| KB  | Dateiname   | Größe | SHA256  | Kommentar |
+|-----|-------------|-------|---------|-----------|
+|   | ie8-windowsxp-x86-deu.exe | 17M | f9f3d210149d9e8459f602a6d7c32efee49c20c16afdc9bd88f5d7ab219f0c7a | Internet Explorer 8 Installationspaket |
+| KB2510531 | ie8-windowsxp-kb2510531-x86-deu.exe | 960K | dd23a16e4fdb9a38fcc85072e56544e1b22bcd2cae3d0cc4544b350abb198b29 | |
+| KB2598845 | ie8-windowsxp-kb2598845-x86-deu.exe | 496K | b24de65a21231adc2b06052d185da0a0852790552809e6ccc6f20d5201bae7b6 | |
+| KB2632503 | ie8-windowsxp-kb2632503-x86-deu.exe | 792K | a58aaa18e8c908f5ca5d8c3dc81a5991437ab176f800dec62502e6c7be113467 | |
+| KB4018271 | ie8-windowsxp-kb4018271-x86-custom-deu.exe | 11M | cbb2514d3eac7d03dca53c95d2f5bd48a083e4fa06aebddea460481d7d7e942c | Im Juni 2017 nach Supportende veröffentlicht |
 
 ### .NET Framework 1.1
 
