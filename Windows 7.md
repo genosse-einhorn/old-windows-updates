@@ -127,6 +127,36 @@ as shown above. You will get additional language pack, spelling, and hyphenation
 | IE-Hyphenation-de-DE.MSU | 972K | c5d3e6f580f356f14b3bc84905a6257472707709710ceb2750042b7b76916528 |
 | IE-Spelling-de-DE.MSU | 5.2M | 517ccdd1e88060f1f71ac8a0dad8e282821dd71195392b5ed8ea32a3fbbf418b |
 
+## ESU Updates (year 3)
+
+| KB | File | Size | SHA256 | Notes |
+|----|------|------|--------|-------|
+| KB5016892 | windows6.1-kb5016892-x64.msu | 714K | 13ae991d6015c55c2b1dbdefe30f4797ffb8aea2b70bfd22ca5421502d937861 | Preparation Update, does not require active ESU license. Installs licensing stuff. |
+| KB5010798 | windows6.1-kb5010798-x64.msu | 52.6M | 4b05d86c505c558618ef4bfa90f76de773016c7a5e15844ef1688bf100f29537 | Out-of-band update for whatever AD stuff |
+| KB5013637 | windows6.1-kb5013637-x64.msu | 24.2M | 5716f3de0d016841f939195d1a01c618e3334b3baf4b9302efc0cc88fae83dcc | 2022-05 .NET 3.5.1 Rollup. Should have been replaced by KB5017397, but windows update wants to install it anyway. |
+| KB5017397 | windows6.1-kb5017397-x64.msu | 9.2M | 282b7c4362596a5ed1b133c24f11beddc0f437ecdd4fd1418919b21ace27d92c | 2022-09 Servicing Stack. Does not actually require active ESU license. Replaces KB4536952. |
+| KB5020861 | windows6.1-kb5020861-x64.msu | 24.2M | ed4c78711233b71347637d1d041d5788ee31447afca4e5703e40bee1ac275fcd | 2022-12 .NET 3.5.1 Rollup. |
+| KB5022338 | windows6.1-kb5022338-x64.msu | 382M | 8dcc957fd68e08d19ccc2703504c1a38a18f78d31c8837fd86ea07af5c9a7c3c | 2023-01 Rollup. |
+| KB5020879 | ndp48-kb5020879-x64.exe | 41.3M | 96b3d93272b94152e2c25c163fb85bde42334098ff177358997224eb2091991f | 2022-12 .NET 4.8 Rollup. |
+
+Note: Updates requiring ESU license cannot be slipstreamed using DISM.
+
+
+## ESU Updates (year 6)
+
+These are made for Server 2008 R2, but can also be installed on Windows 7,
+assuming you find a way to activate the year 6 ESU license.
+
+| KB | File | Size | SHA256 | Notes |
+|----|------|------|--------|-------|
+| KB5016892 | windows6.1-kb5016892-x64.msu | 714K | 13ae991d6015c55c2b1dbdefe30f4797ffb8aea2b70bfd22ca5421502d937861 | Installs licensing stuff for ESU. Does not require active ESU license to install. |
+| KB5066141 | ndp48-kb5066141-x64.exe | 44.6M | 30f9d9ea4c158009f9203d29755046ff94784ae1f0f51e9575cb91737a94a5b8 | 2025-10 .NET 4.8 Rollup |
+| KB5066150 | windows6.1-kb5066150-x64.msu | 28.3M | 637bbb0c3e7916de3c983f645cf66a6ccafb43865cd2cd456e7bd7bcb210e6df | 2025-10 .NET 3.5.1 Rollup |
+| KB5071810 | windows6.1-kb5071810-x64.msu | 9.2M | a409fe6fad0b7d78ccbcbbb77fdac36dc8de4b19c13a5cd8dd16dd8175878ce4 | 2025-11 Servicing Stack. Does not actually require active ESU license to install. Replaces KB4536952. |
+| KB5073695 | windows6.1-kb5073695-x64.msu | 426M | 0e7d6a4779da30c416c29aa3ed8668cc8ecb4420b82718fde6b5f05590789344 | 2026-01 Rollup |
+
+Note: Updates requiring ESU license cannot be slipstreamed using DISM.
+
 # Addons
 
 ## .NET Framework 4.8
